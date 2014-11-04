@@ -47,7 +47,9 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
                 var res = new EDMUNDSAPI('YOUR API KEY');
 
                 // Optional parameters
-                var options = {};
+                var options = {
+                    "zipcode": "90019"
+                };
 
                 // Callback function to be called when the API response is returned
                 function success(res) {
@@ -61,7 +63,7 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
                 }
 
                 // Fire the API call
-                res.api('/api/dealer/v2/dealers/count', options, success, fail);
+                res.api('/api/dealer/v2/franchises', options, success, fail);
 
                 // Additional initialization code such as adding Event Listeners goes here
             };
