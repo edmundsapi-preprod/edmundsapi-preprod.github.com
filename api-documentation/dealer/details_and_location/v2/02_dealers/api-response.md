@@ -58,7 +58,7 @@ number: 3
                         "recommendedCount": {integer},
                         "notRecommendedCount": {integer}
                     },
-                    service: {
+                    "service": {
                         "overallRating": {integer},
                         "count": {integer},
                         "recommendedCount": {integer},
@@ -94,7 +94,7 @@ number: 3
 | address                       | The address for the dealer                                      | Edmunds, Partners, Public |
 | operations                    | The list of operations                                          | Edmunds, Partners, Public |
 | contactInfo                   | The dealer contact info                                         | Edmunds, Partners, Public |
-| distance                      | The dealer distance from specified by zipcode location          | Edmunds, Partners, Public |
+| distance                      | The distance between dealer and specified by zipcode location   | Edmunds, Partners, Public |
 | reviews                       | The dealer sales and service review counters                    | Edmunds, Partners, Public |
 | dealersCount                  | The dealers count                                               | Edmunds, Partners, Public |
 | links                         | The pagination links                                            | Edmunds, Partners, Public |

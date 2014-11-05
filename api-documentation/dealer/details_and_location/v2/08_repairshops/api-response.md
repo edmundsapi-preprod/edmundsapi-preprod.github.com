@@ -69,17 +69,17 @@ number: 3
         ]
     }
 
-| Property                      | Description                                                     | Visibility                |
-|:------------------------------|:----------------------------------------------------------------|:--------------------------|
-| repairshopId                  | The repairshop ID                                               | Edmunds, Partners, Public |
-| dealerId                      | The dealer location ID                                          | Edmunds, Partners, Public |
-| name                          | The franchise name                                              | Edmunds, Partners, Public |
-| niceName                      | The franchise logical name                                      | Edmunds, Partners, Public |
-| distance                      | The franchise distance from specified by zipcode location       | Edmunds, Partners, Public |
-| operations                    | The list of operations                                          | Edmunds, Partners, Public |
-| address                       | The address for the franchise                                   | Edmunds, Partners, Public |
-| active                        | Indicates that the franchise is active                          | Edmunds, Partners, Public |
-| make                          | The make supported by the franchise                             | Edmunds, Partners, Public |
-| type                          | The dealer location type                                        | Edmunds, Partners, Public |
-| repairshopsCount              | The repairshops count                                           | Edmunds, Partners, Public |
-| links                         | The pagination links                                            | Edmunds, Partners, Public |
+| Property                      | Description                                                       | Visibility                |
+|:------------------------------|:------------------------------------------------------------------|:--------------------------|
+| repairshopId                  | The repairshop ID                                                 | Edmunds, Partners, Public |
+| dealerId                      | The dealer location ID                                            | Edmunds, Partners, Public |
+| name                          | The repairshop name                                               | Edmunds, Partners, Public |
+| niceName                      | The repairshop logical name                                       | Edmunds, Partners, Public |
+| distance                      | The distance between repairshop and specified by zipcode location | Edmunds, Partners, Public |
+| operations                    | The list of operations                                            | Edmunds, Partners, Public |
+| address                       | The address for the repairshop                                    | Edmunds, Partners, Public |
+| active                        | Indicates that the repairshop is active                           | Edmunds, Partners, Public |
+| make                          | The make supported by the repairshop                              | Edmunds, Partners, Public |
+| type                          | The dealer location type                                          | Edmunds, Partners, Public |
+| repairshopsCount              | The repairshops count                                             | Edmunds, Partners, Public |
+| links                         | The pagination links                                              | Edmunds, Partners, Public |

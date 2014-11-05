@@ -23,5 +23,5 @@ number: 2
 
 | Parameter     | Description                           | Possible Values       | Default Value | Required |
 |:--------------|:--------------------------------------|:----------------------|:------------- |:-------- |
-| {id}          | The dealer id                         |                       |               | Yes      |
+| {id}          | The dealer ID                         |                       |               | Yes      |
 | view          | The response view                     | basic, full           | basic         | No       |

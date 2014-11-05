@@ -61,14 +61,13 @@ number: 3
 | repairshopId                  | The repairshop ID                                                 | Edmunds, Partners, public |
 | dealerId                      | The dealer location ID                                            | Edmunds, Partners, public |
 | type                          | The dealer location type                                          | Edmunds, Partners, public |
-| name                          |The repairshop name                                                | Edmunds, Partners, public |
-| active                        | Indicates that the dealer is active                               | Edmunds, Partners, public |
+| name                          | The repairshop name                                               | Edmunds, Partners, public |
+| active                        | Indicates that the repairshop is active                           | Edmunds, Partners, public |
 | niceName                      | The repairshop logical name                                       | Edmunds, Partners, public |
 | address                       | The address for the repairshop                                    | Edmunds, Partners, public |
 | operations                    | The list of operations                                            | Edmunds, Partners, public |
 | make                          | The make supported by the repairshop                              | Edmunds, Partners, public |
 | contactInfo                   | The repairshop contact info                                       | Edmunds, Partners, public | 
-| distance                      | The distance between repairshop and specified by zipcode location | Edmunds, Partners, public |
 
 
 

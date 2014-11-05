@@ -89,15 +89,15 @@ Find Franchises of the **12345** area
         "links": [
             {
                 "rel": "first",
-                "href": "/api/dealer/v2/franchises?zipcode=12345&view=full&pagesize=10&pagenum=1"
+                "href": "/api/dealer/v2/franchises?zipcode=12345&view=full&pagesize=10&pagenum=1&api_key={api key}"
             },
             {
                 "rel": "next",
-                "href": "/api/dealer/v2/franchises?zipcode=12345&view=full&pagesize=10&pagenum=2"
+                "href": "/api/dealer/v2/franchises?zipcode=12345&view=full&pagesize=10&pagenum=2&api_key={api key}"
             },
             {
                 "rel": "last",
-                "href": "/api/dealer/v2/franchises?zipcode=12345&view=full&pagesize=10&pagenum=153"
+                "href": "/api/dealer/v2/franchises?zipcode=12345&view=full&pagesize=10&pagenum=153&api_key={api key}"
             }
         ]
     }

@@ -100,15 +100,15 @@ Find Repairshops of the **90404** area
         "links": [
             {
                 "rel": "first",
-                "href": "/api/dealer/v2/repairshops?zipcode=90404&pagesize=10&pagenum=1"
+                "href": "/api/dealer/v2/repairshops?zipcode=90404&pagesize=10&pagenum=1&api_key={api key}"
             },
             {
                 "rel": "next",
-                "href": "/api/dealer/v2/repairshops?zipcode=90404&pagesize=10&pagenum=2"
+                "href": "/api/dealer/v2/repairshops?zipcode=90404&pagesize=10&pagenum=2&api_key={api key}"
             },
             {
                 "rel": "last",
-                "href": "/api/dealer/v2/repairshops?zipcode=90404&pagesize=10&pagenum=168"
+                "href": "/api/dealer/v2/repairshops?zipcode=90404&pagesize=10&pagenum=168&api_key={api key}"
             }
         ]
     }

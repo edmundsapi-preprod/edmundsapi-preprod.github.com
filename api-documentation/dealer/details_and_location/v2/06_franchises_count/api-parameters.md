@@ -24,7 +24,7 @@ number: 2
 | Parameter     | Description                         | Possible Values             | Default Value | Required |
 |:--------------|:------------------------------------|:----------------------------|:--------------|:---------|
 | zipcode       | Five-digits zip code                |                             |               | Yes      |
-| radius        | The radius of dealers search        |                             | 100           | No       |
+| radius        | The radius of franchises search     |                             | 100           | No       |
 | make          | The make nice name                  |                             |               | No       |
 | state         | The state of vehicles               | new, used                   | both          | No       |
 | keyword       | Comma-separated list of keywords    |                             |               | No       |

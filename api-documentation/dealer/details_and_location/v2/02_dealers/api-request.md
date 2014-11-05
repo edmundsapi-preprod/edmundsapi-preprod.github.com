@@ -112,8 +112,8 @@ Find **Ford** Rooftop Dealers of the **33756** area
                         "count": 3,
                         "recommendedCount": 1,
                         "notRecommendedCount": 0
-                },
-                    service: {
+                    },
+                    "service": {
                         "overallRating": 0,
                         "count": 0,
                         "recommendedCount": 0,
@@ -131,15 +131,15 @@ Find **Ford** Rooftop Dealers of the **33756** area
         "links": [
             {
                 "rel": "first",
-                "href": "/api/dealer/v2/dealers?zipcode=33756&make=ford&pagesize=10&pagenum=1"
+                "href": "/api/dealer/v2/dealers?zipcode=33756&make=ford&pagesize=10&pagenum=1&api_key={api key}"
             },
             {
                 "rel": "next",
-                "href": "/api/dealer/v2/dealers?zipcode=33756&make=ford&pagesize=10&pagenum=2"
+                "href": "/api/dealer/v2/dealers?zipcode=33756&make=ford&pagesize=10&pagenum=2&api_key={api key}"
             },
             {
                 "rel": "last",
-                "href": "/api/dealer/v2/dealers?zipcode=33756&make=ford&pagesize=10&pagenum=5"
+                "href": "/api/dealer/v2/dealers?zipcode=33756&make=ford&pagesize=10&pagenum=5&api_key={api key}"
             }
         ]
     }

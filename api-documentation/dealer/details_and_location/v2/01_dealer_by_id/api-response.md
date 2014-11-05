@@ -162,7 +162,6 @@ number: 3
 | address                    | The address for the dealer                               | Edmunds, Partners, public |
 | operations                 | The list of operations                                   | Edmunds, Partners, public |
 | contactInfo                | The dealer contact info                                  | Edmunds, Partners, public |
-| distance                   | The dealer distance from specified by zipcode location   | Edmunds, Partners, public |
 | reviews                    | The dealer sales and service review counters             | Edmunds, Partners, public |
 | franchises                 | The list of dealer franchises                            | Edmunds, Partners, public |
 | repairshops                | The list of dealer repairshops                           | Edmunds, Partners, public |

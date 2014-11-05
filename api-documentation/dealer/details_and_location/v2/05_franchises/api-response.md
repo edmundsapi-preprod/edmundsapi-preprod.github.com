@@ -74,19 +74,19 @@ number: 3
             ]
         }
 
-| Property                      | Description                                                     | Visibility                |
-|:------------------------------|:----------------------------------------------------------------|:--------------------------|
-| franchiseId                   | The franchise ID                                                | Edmunds, Partners, Public |
-| dealerId                      | The dealer location ID                                          | Edmunds, Partners, Public |
-| name                          | The franchise name                                              | Edmunds, Partners, Public |
-| niceName                      | The franchise logical name                                      | Edmunds, Partners, Public |
-| distance                      | The franchise distance from specified by zipcode location       | Edmunds, Partners, Public |
-| operations                    | The list of operations                                          | Edmunds, Partners, Public |
-| address                       | The address for the franchise                                   | Edmunds, Partners, Public |
-| active                        | Indicates that the franchise is active                          | Edmunds, Partners, Public |
-| make                          | The make supported by the franchise                             | Edmunds, Partners, Public |
-| contactInfo                   | The franchise contact info                                      | Edmunds, Partners, Public |
-| state                         | The vehicle state the franchise works with                      | Edmunds, Partners, Public |
-| type                          | The dealer location type                                        | Edmunds, Partners, Public |
-| franchisesCount               | The franchises count                                            | Edmunds, Partners, Public |
-| links                         | The pagination links                                            | Edmunds, Partners, Public |
+| Property                      | Description                                                      | Visibility                |
+|:------------------------------|:-----------------------------------------------------------------|:--------------------------|
+| franchiseId                   | The franchise ID                                                 | Edmunds, Partners, Public |
+| dealerId                      | The dealer location ID                                           | Edmunds, Partners, Public |
+| name                          | The franchise name                                               | Edmunds, Partners, Public |
+| niceName                      | The franchise logical name                                       | Edmunds, Partners, Public |
+| distance                      | The distance between franchise and specified by zipcode location | Edmunds, Partners, Public |
+| operations                    | The list of operations                                           | Edmunds, Partners, Public |
+| address                       | The address for the franchise                                    | Edmunds, Partners, Public |
+| active                        | Indicates that the franchise is active                           | Edmunds, Partners, Public |
+| make                          | The make supported by the franchise                              | Edmunds, Partners, Public |
+| contactInfo                   | The franchise contact info                                       | Edmunds, Partners, Public |
+| state                         | The vehicle state the franchise works with                       | Edmunds, Partners, Public |
+| type                          | The dealer location type                                         | Edmunds, Partners, Public |
+| franchisesCount               | The franchises count                                             | Edmunds, Partners, Public |
+| links                         | The pagination links                                             | Edmunds, Partners, Public |
