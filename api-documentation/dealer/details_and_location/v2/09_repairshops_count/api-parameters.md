@@ -9,7 +9,7 @@ title-endpoint: 'Find Repairshops count'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/repairshops/count'
+dropdown-link: 'api/dealer/v2/repairshops/count'
 
 level: 4
 description_edpoint: 'Find Repairshops count'

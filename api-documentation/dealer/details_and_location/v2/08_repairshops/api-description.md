@@ -9,7 +9,7 @@ title-endpoint: 'Find Repairshops by zipcode'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/repairshops'
+dropdown-link: 'api/dealer/v2/repairshops'
 
 level: 3
 description_edpoint: 'Find Repairshops by zipcode'

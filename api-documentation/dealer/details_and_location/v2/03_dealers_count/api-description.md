@@ -9,7 +9,7 @@ title-endpoint: 'Find Rooftop Dealers count'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/dealers/count'
+dropdown-link: 'api/dealer/v2/dealers/count'
 
 level: 3
 description_edpoint: 'Find Rooftop Dealers count'

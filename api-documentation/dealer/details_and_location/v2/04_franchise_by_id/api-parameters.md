@@ -9,7 +9,7 @@ title-endpoint: 'Find Franchise by ID'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/franchises/{franchiseId}'
+dropdown-link: 'api/dealer/v2/franchises/{franchiseId}'
 
 level: 4
 description_edpoint: 'Find Franchise by ID'

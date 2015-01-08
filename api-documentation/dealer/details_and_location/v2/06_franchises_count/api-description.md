@@ -9,7 +9,7 @@ title-endpoint: 'Find Franchises count'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/franchises/count'
+dropdown-link: 'api/dealer/v2/franchises/count'
 
 level: 3
 description_edpoint: 'Find Franchises count'

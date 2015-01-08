@@ -9,7 +9,7 @@ title-endpoint: 'Find Franchises by zipcode'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/franchises'
+dropdown-link: 'api/dealer/v2/franchises'
 
 level: 3
 description_edpoint: 'Find Franchises by zipcode'

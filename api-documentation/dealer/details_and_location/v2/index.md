@@ -32,7 +32,7 @@ overview: page_version
 
 ###Examples
 
-#### Example 1: Get Rooftop dealer details by ID
+#### Example 1: Get Rooftop Dealer details by ID
     
 > https://api.edmunds.com/api/dealer/v2/dealers/884056?api_key={api_key}
     

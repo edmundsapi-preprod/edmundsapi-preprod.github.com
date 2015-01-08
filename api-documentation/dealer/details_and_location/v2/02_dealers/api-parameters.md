@@ -9,7 +9,7 @@ title-endpoint: 'Find Rooftop Dealers by zipcode'
 spec: details_and_location
 version: v2
 api: dealer
-dropdown-link: '/api/dealer/v2/dealers'
+dropdown-link: 'api/dealer/v2/dealers'
 
 level: 4
 description_edpoint: 'Find Rooftop Dealers by zipcode'
