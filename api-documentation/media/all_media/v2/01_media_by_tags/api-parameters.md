@@ -21,11 +21,12 @@ number: 2
 
 ###Parameters
 
-| Parameter     | Description                           | Possible Values            | Default Value | Required |
-|:--------------|:--------------------------------------|:---------------------------|:------------- |:-------- |
-| {tag}         | The tag of the media item             |                            |               | Yes      |
-| category      | The category of the media item        | interior, exterior, detail |               | No       |
-| provider      | The provider of the media item        |                            |               | No       |
-| view          | The response view                     | basic, full                | basic         | No       |
-| pagenum       | The page number                       |                            | 1             | No       |
-| pagesize      | The page size                         |                            | 10            | No       |
+| Parameter     | Description                           | Possible Values                                                               | Default Value | Required |
+|:--------------|:--------------------------------------|:------------------------------------------------------------------------------|:------------- |:-------- |
+| tag           | The tag of the media item             | Examples: mclaren, 2009, chevrolet-impala, bmw, acura-ilx, full-tests, etc.   |               | Yes      |
+| category      | The category of the media item        | interior, exterior, detail                                                    |               | No       |
+| provider      | The provider of the media item        |                                                                               |               | No       |
+| view          | The response view                     | basic, full                                                                   | basic         | No       |
+| pagenum       | The page number                       |                                                                               | 1             | No       |
+| pagesize      | The page size                         |                                                                               | 10            | No       |
+| api_key       | The API key                           |                                                                               |               | Yes      |

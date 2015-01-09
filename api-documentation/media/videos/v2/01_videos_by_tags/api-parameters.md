@@ -21,14 +21,14 @@ number: 2
 
 ###Parameters
 
-| Parameter     | Description                           | Possible Values                                                 | Default Value | Required |
-|:--------------|:--------------------------------------|:----------------------------------------------------------------|:------------- |:-------- |
-| {tag}         | The tag of the videos                 |                                                                 |               | Yes      |
-| category      | The category of the videos            | interior, exterior, detail                                      |               | No       |
-| provider      | The provider of the videos            |                                                                 |               | No       |
-| view          | The response view                     | basic, full                                                     | basic         | No       |
-| pagenum       | The page number                       |                                                                 | 1             | No       |
-| pagesize      | The page size                         |                                                                 | 10            | No       |
-
+| Parameter     | Description                           | Possible Values                                                             | Default Value | Required |
+|:--------------|:--------------------------------------|:----------------------------------------------------------------------------|:------------- |:-------- |
+| tag           | The tag of the videos                 | Examples: mclaren, 2009, chevrolet-impala, bmw, acura-ilx, full-tests, etc. |               | Yes      |
+| category      | The category of the videos            | interior, exterior, detail                                                  |               | No       |
+| provider      | The provider of the videos            |                                                                             |               | No       |
+| view          | The response view                     | basic, full                                                                 | basic         | No       |
+| pagenum       | The page number                       |                                                                             | 1             | No       |
+| pagesize      | The page size                         |                                                                             | 10            | No       |
+| api_key       | The API key                           |                                                                             |               | Yes      |
 
 
