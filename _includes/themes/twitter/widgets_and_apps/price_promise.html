@@ -18,10 +18,10 @@
         <div class="container">
             <div class="span6">
                 <h2 style="padding-top: 0">HOW DOES IT WORK</h2>
-                <p>If <span class="vin">a given VIN</span> has an associated Price Promise offer, the button will render, allowing a user to pop open a
+                <p>If <span class="vin">a given VIN</span> has an associated Price Promise<sup style="font-size: 6px;vertical-align: 5px;">SM</sup> offer, the button will render, allowing a user to pop open a
                         lead form by clicking on the “Get Your Special Offer” button</p>
                 <p>If <span class="valid">a given (valid or invalid) VIN</span> does NOT have an associated Price Promise offer, the user will not see any mention
-                    of Edmunds.com, Price Promise, or the “Get Your Special Offer” in the space designated by the developer for the widget to render.</p>
+                    of Edmunds.com, Price Promise<sup style="font-size: 6px;vertical-align: 5px;">SM</sup>, or the “Get Your Special Offer” in the space designated by the developer for the widget to render.</p>
             </div>
             <div class="span6">
                 <div class="screen-bgnd rating">
@@ -405,8 +405,10 @@
     // ----
     $valid.hover(function(){
         $button.fadeOut(500);
+        $button.prev().fadeOut(500);
         $borderVin.fadeIn(500);
     },function(){
+        $button.prev().fadeIn(500);
         $button.fadeIn(500);
         $borderVin.fadeOut(500);
     });
