@@ -27,7 +27,7 @@ Find Media by tag **mazda**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2?tag=mazda&api_key={api key}
+    https://api.edmunds.com/api/media/v2?tag=mazda&api_key={api_key}&fmt=json
 
 #### Response
 
@@ -107,15 +107,15 @@ Find Media by tag **mazda**
             "links": [
                 {
                     "rel": "first",
-                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1&api_key={api key}"
+                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "next",
-                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=2&api_key={api key}"
+                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "last",
-                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1550&api_key={api key}"
+                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1550&api_key={api_key}&fmt=json"
                 }
             ]
         },
@@ -167,15 +167,15 @@ Find Media by tag **mazda**
             "links": [
                 {
                     "rel": "first",
-                    "href": "/api/media/v2/videos?tag=mazda&pagesize=10&pagenum=1&api_key={api key}"
+                    "href": "/api/media/v2/videos?tag=mazda&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "next",
-                    "href": "/api/media/v2/videos?tag=mazda&pagesize=10&pagenum=2&api_key={api key}"
+                    "href": "/api/media/v2/videos?tag=mazda&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "last",
-                    "href": "/api/media/v2/videos?tag=mazda&pagesize=10&pagenum=45&api_key={api key}"
+                    "href": "/api/media/v2/videos?tag=mazda&pagesize=10&pagenum=45&api_key={api_key}&fmt=json"
                 }
             ]
         },
@@ -186,7 +186,7 @@ Find Media by tag **mazda**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2?tag=mazda&view=full&api_key={api key}
+    https://api.edmunds.com/api/media/v2?tag=mazda&view=full&api_key={api_key}
 
 #### Response
 
@@ -266,15 +266,15 @@ Find Media by tag **mazda**
             "links": [
                 {
                     "rel": "first",
-                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1&api_key={api key}"
+                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "next",
-                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=2&api_key={api key}"
+                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "last",
-                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1550&api_key={api key}"
+                    "href": "/api/media/v2/photos?tag=mazda&pagesize=10&pagenum=1550&api_key={api_key}&fmt=json"
                 }
             ]
         },
@@ -367,11 +367,11 @@ Find Media by tag **mazda**
             "links": [
                 {
                     "rel": "first",
-                    "href": "/api/media/v2/videos?tag=mazda&view=full&pagesize=10&pagenum=1&api_key={api key}"
+                    "href": "/api/media/v2/videos?tag=mazda&view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
                 },
                 {
                     "rel": "last",
-                    "href": "/api/media/v2/videos?tag=mazda&view=full&pagesize=10&pagenum=1&api_key={api key}"
+                    "href": "/api/media/v2/videos?tag=mazda&view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
                 }
             ]
         },

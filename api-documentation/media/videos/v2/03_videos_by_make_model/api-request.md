@@ -27,7 +27,7 @@ Find Videos for **Honda Civic**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2/honda/civic/videos?api_key={api key}
+    https://api.edmunds.com/api/media/v2/honda/civic/videos?api_key={api_key}&fmt=json
 
 #### Response
 
@@ -76,11 +76,11 @@ Find Videos for **Honda Civic**
         "links": [
             {
                 "rel": "first",
-                "href": "/api/media/v2/honda/civic/videos?pagesize=10&pagenum=1&api_key={api key}"
+                "href": "/api/media/v2/honda/civic/videos?pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/media/v2/honda/civic/videos?pagesize=10&pagenum=1&api_key={api key}"
+                "href": "/api/media/v2/honda/civic/videos?pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             }
         ]
     }

@@ -25,7 +25,7 @@ Find Photos by tags
 
 ### URL
 
-    https://api.edmunds.com/api/media/v2/photos?tag={tag}&api_key={api key}
+    https://api.edmunds.com/api/media/v2/photos?tag={tag}&api_key={api_key}&fmt=json
 
 ### Code Example
 

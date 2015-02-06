@@ -27,7 +27,7 @@ Find Videos for Style with ID **200692674**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2/styles/200692674/videos?api_key={api key}
+    https://api.edmunds.com/api/media/v2/styles/200692674/videos?api_key={api_key}&fmt=json
 
 #### Response
 
@@ -58,11 +58,11 @@ Find Videos for Style with ID **200692674**
         "links": [
             {
                 "rel": "first",
-                "href": "/api/media/v2/styles/200692674/videos?pagesize=10&pagenum=1&api_key={api key}"
+                "href": "/api/media/v2/styles/200692674/videos?pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/media/v2/styles/200692674/videos?pagesize=10&pagenum=1&api_key={api key}"
+                "href": "/api/media/v2/styles/200692674/videos?pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             }
         ]
     }
@@ -72,7 +72,7 @@ Find Videos for Style with ID **200692674**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2/styles/200692674/videos?view=full&api_key={api key}
+    https://api.edmunds.com/api/media/v2/styles/200692674/videos?view=full&api_key={api_key}&fmt=json
 
 #### Response
 
@@ -129,11 +129,11 @@ Find Videos for Style with ID **200692674**
         "links": [
             {
                 "rel": "first",
-                "href": "/api/media/v2/styles/200692674/videos?view=full&pagesize=10&pagenum=1&api_key={api key}"
+                "href": "/api/media/v2/styles/200692674/videos?view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/media/v2/styles/200692674/videos?view=full&pagesize=10&pagenum=1&api_key={api key}"
+                "href": "/api/media/v2/styles/200692674/videos?view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             }
         ]
     }
