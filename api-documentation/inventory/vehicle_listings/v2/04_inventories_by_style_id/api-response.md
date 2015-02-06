@@ -1,18 +1,18 @@
 ---
 layout: api-documentation
-title : 'Find Inventory by VIN'
-title_active_left_menu: 'VIN Lookup'
+title : 'Find Inventories by Style ID'
+title_active_left_menu: 'Vehicle Listings'
 title_parent: Api documentation
 
 amount_version: 2
-title-endpoint: 'Find Inventory by VIN'
-spec: vin_lookup
+title-endpoint: 'Find Inventories by Style ID'
+spec: vehicle_listings
 version: v2
 api: inventory
-dropdown-link: 'api/inventory/v2/vins/{vin}'
+dropdown-link: '/api/inventory/v2/franchises/{styleId}'
 
 level: 4
-description_edpoint: 'Find Inventory by VIN'
+description_edpoint: 'Find Inventories by Style ID'
 title_md : Response format
 number: 3
 
@@ -24,50 +24,63 @@ number: 3
 #### JSON Response w/ view=basic (default)
 
     {
-        "id": {string},
-        "type": {string},
-        "vin": {string},
-        "stockNumber": {string},
-        "mileage": {integer},
-        "make": {
-            "name": {string},
-            "niceName": {string}
-        },
-        "model": {
-            "name": {string},
-            "niceName": {string}
-        },
-        "year": {
-            "id": {long},
-            "year": {integer}
-        },
-        "style": {
-            "id": {long},
-            "name": {string},
-            "submodel": {
-                "body": {string},
-                "modelName": {string},
-                "niceName": {string}
+        "inventories": [
+            {
+                "id": {string},
+                "type": {string},
+                "vin": {string},
+                "stockNumber": {string},
+                "mileage": {integer},
+                "make": {
+                    "name": {string},
+                    "niceName": {string}
+                },
+                "model": {
+                    "name": {string},
+                    "niceName": {string}
+                },
+                "year": {
+                    "id": {long},
+                    "year": {integer}
+                },
+                "style": {
+                    "id": {long},
+                    "name": {string},
+                    "submodel": {
+                        "body": {string},
+                        "modelName": {string},
+                        "niceName": {string}
+                    },
+                    "trim": {string}
+                },
+                "prices": {
+                    "msrp": {double},
+                    "tmv": {double},
+                    "guaranteedPrice": {double},
+                    "invoice": {double},
+                    "monthlyPayment": {double}
+                },
+                "dealer": {
+                    "dealerId": {string},
+                    "name": {string},
+                    "franchiseId": {string},
+                    "contactInfo": {
+                        "phone": {string},
+                        "website": {string}
+                    },
+                    "premier": {boolean}
+                }
             },
-            "trim": {string}
-        },
-        "prices": {
-            "msrp": {double},
-            "tmv": {double},
-            "guaranteedPrice": {double},
-            "invoice": {double},
-            "monthlyPayment": {double}
-        },
-        "dealer": {
-            "dealerId": {string},
-            "name": {string},
-            "franchiseId": {string},
-            "contactInfo": {
-                "phone": {string},
-                "website": {string}
+            ...
+        ],
+        "inventoriesCount: {integer},
+        "links": [
+            {
+                "rel": {string},
+                "href": {string}
             },
-            "premier": {boolean}
-        }
+            ...
+        ]
     }
 
 
@@ -91,144 +104,160 @@ number: 3
 | franchiseId                | The franchise ID                                          | Edmunds, Partners         |
 | contactInfo                | The franchise contact information                         | Edmunds, Partners         |
 | premier                    | Is this dealership a premier dealer?                      | Edmunds                   |
+| inventoriesCount           | The inventories count                                     | Edmunds, Partners, Public |
+| links                      | The pagination links                                      | Edmunds, Partners, Public |
+
 
 #### JSON Response w/ view=full
 
     {
-        "id": {string},
-        "type": {string},
-        "vin": {string},
-        "stockNumber": {string},
-        "mileage": {integer},
-        "make": {
-            "name": {string},
-            "niceName": {string}
-        },
-        "model": {
-            "name": {string},
-            "niceName": {string}
-        },
-        "year": {
-            "id": {long},
-            "year": {integer}
-        },
-        "style": {
-            "id": {long},
-            "name": {string},
-            "submodel": {
-                "body": {string},
-                "modelName": {string},
-                "niceName": {string}
-            },
-            "trim": {string},
-            "link": {
-                "rel": {string},
-                "href": {string}
-            }
-        },
-        "media": {
-            "photos": {
-                "link": {
-                    "rel": {string},
-                    "href": {string}
-                },
-                "count": {integer}
-            },
-            "videos": {
-                "link": {
-                    "rel": {string},
-                    "href": {string}
-                },
-                "count": {integer}
-            }
-        },
-        "colors": [
+        "inventories": [
             {
                 "id": {string},
-                "name": {string},
-                "availability": {string},
-                "equipmentType": {string},
-                "manufactureOptionName": {string},
-                "manufactureOptionCode": {string},
-                "category": {string},
-                "colorChips": {
-                    "primary": {
-                        "r": {integer},
-                        "g": {integer},
-                        "b": {integer},
-                        "hex": {string}
+                "type": {string},
+                "vin": {string},
+                "stockNumber": {string},
+                "mileage": {integer},
+                "make": {
+                    "name": {string},
+                    "niceName": {string}
+                },
+                "model": {
+                    "name": {string},
+                    "niceName": {string}
+                },
+                "year": {
+                    "id": {long},
+                    "year": {integer}
+                },
+                "style": {
+                    "id": {long},
+                    "name": {string},
+                    "submodel": {
+                        "body": {string},
+                        "modelName": {string},
+                        "niceName": {string}
+                    },
+                    "trim": {string},
+                    "link": {
+                        "rel": {string},
+                        "href": {string}
                     }
                 },
-                "fabricTypes": [
-                    {
-                        "name": {string},
-                        "value": {string}
+                "media": {
+                    "photos": {
+                        "link": {
+                            "rel": {string},
+                            "href": {string}
+                        },
+                        "count": {integer}
+                    },
+                    "videos": {
+                        "link": {
+                            "rel": {string},
+                            "href": {string}
+                        },
+                        "count": {integer}
                     }
-                ]
+                },
+                "colors": [
+                    {
+                        "id": {string},
+                        "name": {string},
+                        "availability": {string},
+                        "equipmentType": {string},
+                        "manufactureOptionName": {string},
+                        "manufactureOptionCode": {string},
+                        "category": {string},
+                        "colorChips": {
+                            "primary": {
+                                "r": {integer},
+                                "g": {integer},
+                                "b": {integer},
+                                "hex": {string}
+                            }
+                        },
+                        "fabricTypes": [
+                            {
+                                "name": {string},
+                                "value": {string}
+                            }
+                        ]
+                    },
+                    ...
+                ],
+                "mpg": {
+                    "highway": {string},
+                    "city": {string}
+                },
+                "prices": {
+                    "msrp": {double},
+                    "tmv": {double},
+                    "guaranteedPrice": {double},
+                    "invoice": {double},
+                    "monthlyPayment": {double}
+                },
+                "programs": {
+                    "leasePromise": {
+                        "active": {boolean},
+                        "downPayment": {double},
+                        "mileageFee": {double},
+                        "dueAtSigning": {double},
+                        "annualMileage": {integer},
+                        "term": {integer},
+                        "startDate": {long},
+                        "endDate": {long},
+                        "disclosure": {string}
+                    },
+                    "pricePromise": {
+                        "active": {boolean},
+                        "expireDate": {long},
+                        "disclaimer": {string}
+                    }
+                },
+                "equipment": [
+                    {
+                        "id": {string},
+                        "name": {string},
+                        "equipmentType": {string},
+                        "availability": {string},
+                        "attributes":[
+                            {
+                            "name": {string},
+                            "value": {string}
+                            },
+                            ...
+                        ]
+                    },
+                ],
+                "features": [
+                    {string}
+                ],
+                "dealer": {
+                    "dealerId": {string},
+                    "name": {string},
+                    "franchiseId": {string},
+                    "contactInfo": {
+                        "phone": {string},
+                        "website": {string}
+                    },
+                    "premier": {boolean},
+                    "link": {
+                        "rel": {string},
+                        "href": {string}
+                    }
+                }
             },
             ...
         ],
-        "mpg": {
-            "highway": {string},
-            "city": {string}
-        },
-        "prices": {
-            "msrp": {double},
-            "tmv": {double},
-            "guaranteedPrice": {double},
-            "invoice": {double},
-            "monthlyPayment": {double}
-        },
-        "programs": {
-            "leasePromise": {
-                "active": {boolean},
-                "downPayment": {double},
-                "mileageFee": {double},
-                "dueAtSigning": {double},
-                "annualMileage": {integer},
-                "term": {integer},
-                "startDate": {long},
-                "endDate": {long},
-                "disclosure": {string}
-            },
-            "pricePromise": {
-                "active": {boolean},
-                "expireDate": {long},
-                "disclaimer": {string}
-            }
-        },
-        "equipment": [
+        "inventoriesCount: {integer},
+        "links": [
             {
-                "id": {string},
-                "name": {string},
-                "equipmentType": {string},
-                "availability": {string},
-                "attributes":[
-                    {
-                    "name": {string},
-                    "value": {string}
-                    },
-                    ...
-                ]
-            },
-        ],
-        "features": [
-            {string}
-        ],
-        "dealer": {
-            "dealerId": {string},
-            "name": {string},
-            "franchiseId": {string},
-            "contactInfo": {
-                "phone": {string},
-                "website": {string}
-            },
-            "premier": {boolean},
-            "link": {
                 "rel": {string},
                 "href": {string}
-            }
-        }
+            },
+            ...
+        ]
     }
 
 | Property                   | Description                                                                                                     | Visibility                |
@@ -265,5 +294,7 @@ number: 3
 | franchiseId                | The franchise ID                                                                                                | Edmunds, Partners         |
 | contactInfo                | The franchise contact information                                                                               | Edmunds, Partners         |
 | premier                    | Is this dealership a premier dealer?                                                                            | Edmunds                   |
+| inventoriesCount           | The inventories count                                                                                           | Edmunds, Partners, Public |
+| links                      | The pagination links                                                                                            | Edmunds, Partners, Public |
 
 **Note:** *Public* visibility is only available to public API keys that have been approved for access by Edmunds.com

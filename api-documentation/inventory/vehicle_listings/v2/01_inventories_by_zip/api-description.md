@@ -1,19 +1,18 @@
 ---
 layout: api-documentation
-title : 'Find Inventory by VIN'
-title_active_left_menu: 'VIN Lookup'
+title : 'Find Inventories by ZIP'
+title_active_left_menu: 'Vehicle Listings'
 title_parent: Api documentation
 
 amount_version: 2
-title-endpoint: 'Find Inventory by VIN'
-spec: vin_lookup
+title-endpoint: 'Find Inventories by ZIP'
+spec: vehicle_listings
 version: v2
 api: inventory
-dropdown-link: '/api/inventory/v2/vins/{vin}'
-
+dropdown-link: '/api/inventory/v2/inventories?zipcode={zipcode}'
 
 level: 3
-description_edpoint: 'Find Inventory by VIN'
+description_edpoint: 'Find Inventories by ZIP'
 title_md : Description
 number: 1
 
@@ -21,11 +20,11 @@ number: 1
 
 ### Description
 
-Look up a car by its VIN, zip code and radius.
+Get cars available for sale within a specific area by supplying a five-digit ZIP code.
 
 ### URL
 
-    https://api.edmunds.com/api/inventory/v2/vins/{vin}?api_key={api_key}&fmt=json
+    https://api.edmunds.com/api/inventory/v2/inventories?zipcode={zipcode}&api_key={api_key}&fmt=json
 
 ### Code Example
 
@@ -52,7 +51,7 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
                 // Callback function to be called when the API response is returned
                 function success(res) {
                     var body = document.getElementById('results-body');
-                    body.innerHTML = "This inventory VIN is : " + res.vin;
+                    body.innerHTML = "This inventory VIN is : " + res.inventories[0].vin;
                 }
 
                 // Oops, Houston we have a problem!
@@ -61,7 +60,7 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
                 }
 
                 // Fire the API call
-                res.api('/api/inventory/v2/vins/4JGDF7DE1EA414724', options, success, fail);
+                res.api('/api/inventory/v2/inventories?zipcode=90404', options, success, fail);
 
                 // Additional initialization code such as adding Event Listeners goes here
             };

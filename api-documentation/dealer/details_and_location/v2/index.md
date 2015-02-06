@@ -43,3 +43,4 @@ overview: page_version
 #### Example 3: Get Repairshops count for ZIP code **90404**
 
 > https://api.edmunds.com/api/dealer/v2/repairshops/count?zipcode=90404&api_key={api_key}
+
