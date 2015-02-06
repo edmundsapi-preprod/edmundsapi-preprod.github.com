@@ -33,3 +33,4 @@ number: 2
 | pagesize      | The page size                          |                             | 10             | No       |
 | sortby        | The sorting strategy                   | distance, name              | distance       | No       |
 | api_key       | The API key                            |                             |                | Yes      |
+| fmt           | Response format                        | json                        | json           | Yes      |

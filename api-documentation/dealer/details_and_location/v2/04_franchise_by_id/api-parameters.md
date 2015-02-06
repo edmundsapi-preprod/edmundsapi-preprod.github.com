@@ -26,3 +26,4 @@ number: 2
 | {franchiseId} | The franchise ID                    |                             |               | Yes      |
 | view          | The response view                   | basic, full                 | basic         | No       |
 | api_key       | The API key                         |                             |               | Yes      |
+| fmt           | Response format                     | json                        | json          | Yes      |
