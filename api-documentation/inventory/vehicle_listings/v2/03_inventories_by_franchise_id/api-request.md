@@ -27,7 +27,7 @@ Find inventories for Dealership with ID **649665**.
 
 #### URL
 
-     https://api.edmunds.com/api/inventory/v2/franchises/649665?api_key={api_key}&fmt=json
+     https://api.edmunds.com/api/inventory/v2/franchises/649665?fmt=json
 
 #### Response
 
@@ -120,15 +120,15 @@ Find inventories for Dealership with ID **649665**.
         "links": [
             {
                 "rel": "first",
-                "href": "/api/inventory/v2/franchises/649665?pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/franchises/649665?pagesize=10&pagenum=1&fmt=json"
             },
             {
                 "rel": "next",
-                "href": "/api/inventory/v2/franchises/649665?pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/franchises/649665?pagesize=10&pagenum=2&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/inventory/v2/franchises/649665?pagesize=10&pagenum=4&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/franchises/649665?pagesize=10&pagenum=4&fmt=json"
             }
         ]
     }
@@ -138,7 +138,7 @@ Find inventories for Dealership with ID **649665**.
 
 #### URL
 
-    https://api.edmunds.com/api/inventory/v2/franchises/649665?view=full&api_key={api_key}&fmt=json
+    https://api.edmunds.com/api/inventory/v2/franchises/649665?view=full&fmt=json
 
 #### Response
 
@@ -478,15 +478,15 @@ Find inventories for Dealership with ID **649665**.
         "links": [
             {
                 "rel": "first",
-                "href": "/api/inventory/v2/franchises/649665?view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/franchises/649665?view=full&pagesize=10&pagenum=1&fmt=json"
             },
             {
                 "rel": "next",
-                "href": "/api/inventory/v2/franchises/649665?view=full4&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/franchises/649665?view=full4&pagesize=10&pagenum=2&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/inventory/v2/franchises/649665?view=full&pagesize=10&pagenum=4&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/franchises/649665?view=full&pagesize=10&pagenum=4&fmt=json"
             }
         ]
      }

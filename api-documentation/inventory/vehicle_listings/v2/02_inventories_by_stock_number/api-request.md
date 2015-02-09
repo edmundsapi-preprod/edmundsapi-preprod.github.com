@@ -27,7 +27,7 @@ Find inventories by Stock Number **350175**.
 
 #### URL
 
-     https://api.edmunds.com/api/inventory/v2/stocks/350175?api_key={api_key}&fmt=json
+     https://api.edmunds.com/api/inventory/v2/stocks/350175?fmt=json
 
 #### Response
 
@@ -125,11 +125,11 @@ Find inventories by Stock Number **350175**.
         "links": [
             {
                 "rel": "first",
-                "href": "/api/inventory/v2/stocks/350175?pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/stocks/350175?pagesize=10&pagenum=1&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/inventory/v2/stocks/350175?pagesize=10&pagenum=16&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/stocks/350175?pagesize=10&pagenum=16&fmt=json"
             }
         ]
     }
@@ -139,7 +139,7 @@ Find inventories by Stock Number **350175**.
 
 #### URL
 
-    https://api.edmunds.com/api/inventory/v2/stocks/350175?view=full&api_key={api_key}&fmt=json
+    https://api.edmunds.com/api/inventory/v2/stocks/350175?view=full&fmt=json
 
 #### Response
 
@@ -494,11 +494,11 @@ Find inventories by Stock Number **350175**.
         "links": [
             {
                 "rel": "first",
-                "href": "/api/inventory/v2/stocks/350175?view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/stocks/350175?view=full&pagesize=10&pagenum=1&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/inventory/v2/stocks/350175?view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/stocks/350175?view=full&pagesize=10&pagenum=1&fmt=json"
             }
         ]
      }

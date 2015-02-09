@@ -38,5 +38,4 @@ number: 2
 | pagenum       | The page number                                   |                                                 | 1                       | No                               |
 | pagesize      | The page size                                     |                                                 | 10                      | No                               |
 | view          | The response view                                 | basic, full, custom                             | basic                   | No                               |
-| api_key       | The API key                                       |                                                 |                         | Yes                              |
 | fmt           | Response format                                   | json                                            | json                    | Yes                              |
