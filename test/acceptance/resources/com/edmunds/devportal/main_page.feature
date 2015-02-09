@@ -17,6 +17,9 @@ Feature: Main Page
     When I select 'Vehicle API' API carousel item
     Then the '1' item info should be displayed
 
+    When I select 'Media API' API carousel item
+    Then the '5' item info should be displayed
+
   Scenario: Check Built with Edmunds API carousel
     Given I have opened '/' page
     Then I should see carousel
