@@ -27,7 +27,7 @@ Look up inventory for VIN **4JGDF7DE1EA414724**.
 
 #### URL
 
-     https://api.edmunds.com/api/inventory/v2/vins/4JGDF7DE1EA414724?api_key={api_key}&fmt=json
+     https://api.edmunds.com/api/inventory/v2/vins/4JGDF7DE1EA414724?fmt=json
 
 #### Response
 
@@ -81,7 +81,7 @@ Look up inventory for VIN **4JGDF7DE1EA414724**.
 
 #### URL
 
-     https://api.edmunds.com/api/inventory/v2/vins/4JGDF7DE1EA414724?view=full&api_key={api_key}&fmt=json
+     https://api.edmunds.com/api/inventory/v2/vins/4JGDF7DE1EA414724?view=full&fmt=json
 
 #### Response
 

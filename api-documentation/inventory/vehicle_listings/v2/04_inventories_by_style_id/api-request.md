@@ -27,7 +27,7 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
 
 #### URL
 
-     https://api.edmunds.com/api/inventory/v2/styles/200674795?zipcode=90404&api_key={api_key}&fmt=json
+     https://api.edmunds.com/api/inventory/v2/styles/200674795?zipcode=90404&fmt=json
 
 #### Response
 
@@ -120,15 +120,15 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
         "links": [
             {
                 "rel": "first",
-                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&pagesize=10&pagenum=1&fmt=json"
             },
             {
                 "rel": "next",
-                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&pagesize=10&pagenum=2&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&pagesize=10&pagenum=26&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&pagesize=10&pagenum=26&fmt=json"
             }
         ]
     }
@@ -138,7 +138,7 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
 
 #### URL
 
-    https://api.edmunds.com/api/inventory/v2/styles/200674795?zipcode=90404&view=full&api_key={api_key}&fmt=json
+    https://api.edmunds.com/api/inventory/v2/styles/200674795?zipcode=90404&view=full&fmt=json
 
 #### Response
 
@@ -478,15 +478,15 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
         "links": [
             {
                 "rel": "first",
-                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&view=full&pagesize=10&pagenum=1&fmt=json"
             },
             {
                 "rel": "next",
-                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&view=full4&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&view=full4&pagesize=10&pagenum=2&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&view=full&pagesize=10&pagenum=26&api_key={api_key}&fmt=json"
+                "href": "/api/inventory/v2/styles/200674795?zipcode=90404&view=full&pagesize=10&pagenum=26&fmt=json"
             }
         ]
      }

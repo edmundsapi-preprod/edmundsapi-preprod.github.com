@@ -24,5 +24,4 @@ number: 2
 | Parameter     | Description         | Possible Values       | Default Value | Required |
 |:--------------|:--------------------|:----------------------|:------------- |:-------- |
 | vin           | The car's VIN       |                       |               | Yes      |
-| api_key       | The API key         |                       |               | Yes      |
 | fmt           | Response format     | json                  | json          | Yes      |

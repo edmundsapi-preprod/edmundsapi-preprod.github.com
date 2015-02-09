@@ -28,12 +28,12 @@ overview: page_version
 
 #### Example 1: Get Cars for ZIP code **90404**
 
-> https://api.edmunds.com/api/inventory/v2/inventories?zipcode=90404&api_key={api_key}&fmt=json
+> https://api.edmunds.com/api/inventory/v2/inventories?zipcode=90404&fmt=json
 
 #### Example 2: Get Cars by Style ID **200466220**
 
-> https://api.edmunds.com/api/inventory/v2/styles/200466220?api_key={api_key}&fmt=json
+> https://api.edmunds.com/api/inventory/v2/styles/200466220?fmt=json
 
 #### Example 3: Get Cars of Dealership with ID **837209**
 
-> https://api.edmunds.com/api/inventory/v2/franchises/837209?api_key={api_key}&fmt=json
+> https://api.edmunds.com/api/inventory/v2/franchises/837209?fmt=json
