@@ -1,5 +1,3 @@
-      | Service: Notes                       |
-      | Service: Local Labor Rate            |
 Feature: API Documentation
   To verify API documentation availability
 
