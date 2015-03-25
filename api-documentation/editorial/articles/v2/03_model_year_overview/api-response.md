@@ -25,43 +25,43 @@ number: 3
 #### JSON Response w/ view=basic (default)
 
     {
-      tags: [
+      "tags": [
         {string},
         ...
       ],
-      description: {string},
-      introduction: {string},
-      link: {
-        rel: {string},
-        href: {string}
+      "description": {string},
+      "introduction": {string},
+      "link": {
+        "rel": {string},
+        "href": {string}
       },
-      make: {
-        name: {string},
-        niceName: {string}
+      "make": {
+        "name": {string},
+        "niceName": {string}
       },
-      model: {
-        name: {string},
-        niceName: {string}
+      "model": {
+        "name": {string},
+        "niceName": {string}
       },
-      year: {
-        id: {integer},
-        year: {integer}
+      "year": {
+        "id": {integer},
+        "year": {integer}
       },
-      edmundsSays: {string},
-      pros: [
+      "edmundsSays": {string},
+      "pros": [
         {string},
         ...
       ],
-      cons: [
+      "cons": [
         {string},
         ...
       ],
-      whatsNew: {string},
-      body: {string},
-      powertrain: {string},
-      safety: {string},
-      interior: {string},
-      driving: {string}
+      "whatsNew": {string},
+      "body": {string},
+      "powertrain": {string},
+      "safety": {string},
+      "interior": {string},
+      "driving": {string}
     }
 
 | Property                      | Description                                               | Visibility                |
@@ -86,53 +86,53 @@ number: 3
 #### JSON Response w/ view=full
 
     {
-      tags: [
+      "tags": [
         {string},
         ...
       ],
-      description: {string},
-      introduction: {string},
-      link: {
-        rel: {string},
-        href: {string}
+      "description": {string},
+      "introduction": {string},
+      "link": {
+        "rel": {string},
+        "href": {string}
       },
-      make: {
-        id: {integer},
-        name: {string},
-        niceName: {string},
-        link: {
-          rel: {string},
-          href: {string}
+      "make": {
+        "id": {integer},
+        "name": {string},
+        "niceName": {string},
+        "link": {
+          "rel": {string},
+          "href": {string}
         }
       },
-      model: {
-        id: {string},
-        name: {string},
-        niceName: {string},
-        link: {
-          rel: {string},
-          href: {string}
+      "model": {
+        "id": {string},
+        "name": {string},
+        "niceName": {string},
+        "link": {
+          "rel": {string},
+          "href": {string}
         }
       },
-      year: {
-        id: {integer},
-        year: {integer}
+      "year": {
+        "id": {integer},
+        "year": {integer}
       },
-      edmundsSays: {string},
-      pros: [
+      "edmundsSays": {string},
+      "pros": [
         {string},
         ...
       ],
-      cons: [
+      "cons": [
         {string},
         ...
       ],
-      whatsNew: {string},
-      body: {string},
-      powertrain: {string},
-      safety: {string},
-      interior: {string},
-      driving: {string}
+      "whatsNew": {string},
+      "body": {string},
+      "powertrain": {string},
+      "safety": {string},
+      "interior": {string},
+      "driving": {string}
     }
 
 | Property                      | Description                                               | Visibility                |

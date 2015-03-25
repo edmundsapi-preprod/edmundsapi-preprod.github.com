@@ -24,7 +24,10 @@ Make sure to see the [*Special Requirements*](http://developer.edmunds.com/api-d
 
 ### Endpoint
 
-* [Get Edmunds articles by category and/or Vehicle Make/Model/Year](/api-documentation/editorial/articles/v1/01_content/api-description.html)
+* [Get make overview](/api-documentation/editorial/articles/v2/01_make_overview/api-description.html)
+* [Get model overview](/api-documentation/editorial/articles/v2/02_model_overview/api-description.html)
+* [Get model/year overview](/api-documentation/editorial/articles/v2/03_model_year_overview/api-description.html)
+* [Get road-tests articles](/api-documentation/editorial/articles/v2/04_road_tests_overview/api-description.html)
 
 ### Available Article Categories
 

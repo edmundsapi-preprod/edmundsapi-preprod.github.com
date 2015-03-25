@@ -27,7 +27,7 @@ Make sure to see the [*Special Requirements*](http://developer.edmunds.com/api-d
 
 ### URL
 
-	https://api.edmunds.com/api/editorial/v2/{make}/{model}/{year}/roadtests?view={view}&api_key={API key}&fmt=json
+	https://api.edmunds.com/api/editorial/v2/{make}/{model}/{year}/roadtests?api_key={api_key}&fmt=json
 
 ### Code Example
 

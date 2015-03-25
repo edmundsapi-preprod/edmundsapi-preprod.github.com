@@ -25,28 +25,28 @@ number: 3
 #### JSON Response w/ view=basic (default)
 
     {
-      tags: [
+      "tags": [
         {string},
         ...
       ],
-      description: {string},
-      introduction: {string},
-      link: {
-        rel: {string},
-        href: {string}
+      "description": {string},
+      "introduction": {string},
+      "link": {
+        "rel": {string},
+        "href": {string}
       },
-      make: {
-        name: {string},
-        niceName: {string}
+      "make": {
+        "name": {string},
+        "niceName": {string}
       },
-      model: {
-        name: {string},
-        niceName: {string}
+      "model": {
+        "name": {string},
+        "niceName": {string}
       },
-      years: [
+      "years": [
         {
-          id: {integer},
-          year: {integer}
+          "id": {integer},
+          "year": {integer}
         },
         ...
       ]
@@ -65,37 +65,37 @@ number: 3
 #### JSON Response w/ view=full
 
     {
-      tags: [
+      "tags": [
         {string},
         ...
       ],
-      description: {string},
-      introduction: {string},
-      link: {
-        rel: {string},
-        href: {string}
+      "description": {string},
+      "introduction": {string},
+      "link": {
+        "rel": {string},
+        "href": {string}
       },
-      make: {
-        id: {integer},
-        name: {string},
-        niceName: {string},
-        link: {
-          rel: {string},
-          href: {string}
+      "make": {
+        "id": {integer},
+        "name": {string},
+        "niceName": {string},
+        "link": {
+          "rel": {string},
+          "href": {string}
         }
       },
-      model: {
-        id: {string},
-        name: {string},
-        niceName: {string}
+      "model": {
+        "id": {string},
+        "name": {string},
+        "niceName": {string}
       },
-      years: [
+      "years": [
         {
-          id: {integer},
-          year: {integer},
-          link: {
-            rel: {string},
-            href: {string}
+          "id": {integer},
+          "year": {integer},
+          "link": {
+            "rel": {string},
+            "href": {string}
           }
         },
         ...

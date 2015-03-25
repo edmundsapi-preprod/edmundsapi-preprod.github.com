@@ -25,49 +25,49 @@ number: 3
 #### JSON Response w/ view=basic (default)
 
     {
-      make: {
-        name: {string},
-        niceName: {string}
+      "make": {
+        "name": {string},
+        "niceName": {string}
       },
-      model: {
-        name: {string},
-        niceName: {string}
+      "model": {
+        "name": {string},
+        "niceName": {string}
       },
-      year: {
-        id: {integer},
-        year: {integer}
+      "year": {
+        "id": {integer},
+        "year": {integer}
       },
-      articles: [
+      "articles": [
         {
-          tags: [
+          "tags": [
             {string}
           ],
-          description: {string},
-          introduction: {string},
-          link: {
-            rel: {string},
-            href: {string}
+          "description": {string},
+          "introduction": {string},
+          "link": {
+            "rel": {string},
+            "href": {string}
           },
-          style: {
-            id: {integer},
-            name: {string},
-            submodel: {
-              body: {string},
-              modelName: {string},
-              niceName: {string}
+          "style": {
+            "id": {integer},
+            "name": {string},
+            "submodel": {
+              "body": {string},
+              "modelName": {string},
+              "niceName": {string}
             }
           },
-          title: {string},
-          authors: [
+          "title": {string},
+          "authors": [
             {
-              name: {string}
+              "name": {string}
             },
             ...
           ]
         },
         ...
       ],
-      articlesCount: {integer}
+      "articlesCount": {integer}
     }
 
 | Property                      | Description                                               | Visibility                |
@@ -81,69 +81,69 @@ number: 3
 #### JSON Response w/ view=full
 
     {
-      make: {
-        id: {integer},
-        name: {string},
-        niceName: {string}
+      "make": {
+        "id": {integer},
+        "name": {string},
+        "niceName": {string}
       },
-      model: {
-        id: {string},
-        name: {string},
-        niceName: {string}
+      "model": {
+        "id": {string},
+        "name": {string},
+        "niceName": {string}
       },
-      year: {
-        id: {integer},
-        year: {integer}
+      "year": {
+        "id": {integer},
+        "year": {integer}
       },
-      articles: [
+      "articles": [
         {
-          tags: [
+          "tags": [
             {string},
             ...
           ],
-          description: {string},
-          introduction: {string},
-          link: {
-            rel: {string},
-            href: {string}
+          "description": {string},
+          "introduction": {string},
+          "link": {
+            "rel": {string},
+            "href": {string}
           },
-          style: {
-            id: {integer},
-            name: {string},
-            submodel: {
-              body: {string},
-              modelName: {string},
-              niceName: {string}
+          "style": {
+            "id": {integer},
+            "name": {string},
+            "submodel": {
+              "body": {string},
+              "modelName": {string},
+              "niceName": {string}
             }
           },
-          title: {string},
-          authors: [
+          "title": {string},
+          "authors": [
             {
-              name: {string}
+              "name": {string}
             },
             ...
           ],
-          comments: [
+          "comments": [
             {
-              authors: [
+              "authors": [
                 {
-                  name: {string},
-                  email: {string}
+                  "name": {string},
+                  "email": {string}
                 },
                 ...
               ],
-              body: {string},
-              publishDate: {integer}
+              "body": {string},
+              "publishDate": {integer}
             },
             ...
           ],
-          specifications: [
+          "specifications": [
             {
-              group: {string},
-              attributes: [
+              "group": {string},
+              "attributes": [
                 {
-                  name: {string},
-                  value: {string}
+                  "name": {string},
+                  "value": {string}
                 },
                 ...
               ]
@@ -153,7 +153,7 @@ number: 3
         },
         ...
       ],
-      articlesCount: {integer}
+      "articlesCount": {integer}
     }
 
 | Property                      | Description                                               | Visibility                |
