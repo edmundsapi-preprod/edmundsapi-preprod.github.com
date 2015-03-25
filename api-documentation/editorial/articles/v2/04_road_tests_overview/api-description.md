@@ -22,13 +22,13 @@ number: 1
 
 ### Description
 
-Get articles written by the Edmunds staff. This is done by make name, model name and year.
+Get road-tests articles written by the Edmunds staff. This is done by make name, model name and year.
 Make sure to see the [*Special Requirements*](http://developer.edmunds.com/api-documentation/editorial/#special_requirements) for displaying Edmunds editorial content.
 
 ### URL
 
 	https://api.edmunds.com/api/editorial/v2/{make}/{model}/{year}/roadtests?view={view}&api_key={API key}&fmt=json
-	
+
 ### Code Example
 
 You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-sdk) to run this example.
@@ -65,7 +65,7 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
 				}
 
 				// Fire the API call
-				res.api('/editorial/v2/audi/a3/2013/roadtests', options, success, fail);
+				res.api('/api/editorial/v2/audi/a3/2013/roadtests', options, success, fail);
 
 			    // Additional initialization code such as adding Event Listeners goes here
 		  };

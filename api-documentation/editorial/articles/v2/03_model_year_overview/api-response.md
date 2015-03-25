@@ -99,7 +99,7 @@ number: 3
       make: {
         id: {integer},
         name: {string},
-        niceName: {string}",
+        niceName: {string},
         link: {
           rel: {string},
           href: {string}

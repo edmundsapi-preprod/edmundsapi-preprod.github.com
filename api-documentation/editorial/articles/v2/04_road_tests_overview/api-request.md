@@ -25,9 +25,9 @@ Get Audi A3 2013 overview.
 
 #### URL
 
-    https://api.edmunds.com/editorial/v2/honda/accord/2013/roadtests?view=basic&api_key={API key}&fmt=json
+    https://api.edmunds.com/api/editorial/v2/honda/accord/2013/roadtests?view=basic&api_key={API key}&fmt=json
 
-#### Response
+#### Response 1
 
     {
       make: {
@@ -75,4 +75,105 @@ Get Audi A3 2013 overview.
         }
       ],
       articlesCount: 1
+    }
+    
+###Sample Request 2
+
+Get Audi A3 2013 overview with view=full.
+
+#### URL
+
+    https://api.edmunds.com/api/editorial/v2/honda/accord/2013/roadtests?view=full&api_key={API key}&fmt=json
+
+#### Response
+
+    {
+      make: {
+        id: 200001444,
+        name: "Honda",
+        niceName: "honda"
+      },
+      model: {
+        id: "Honda_Accord",
+        name: "Accord",
+        niceName: "accord"
+      },
+      year: {
+        id: 100537293,
+        year: 2013
+      },
+      articles: [
+        {
+          tags: [
+            "Edmunds conducts a full test of the 2013 Honda Accord EX-L V6 with Navigation."
+          ],
+          description: "Edmunds conducts a full test of the 2013 Honda Accord EX-L V6 with Navigation.",
+          introduction: "<p>Honda has finally come up with a four-wheeled analog to the legendary Gold Wing touring bike. What's surprising is that it's the new V6-powered, 2013 Honda Accord EX-L V6 sedan.</p> <p>Now in its 38th year of production, the Accord has always been the sort of car you never have to justify to your neighbors and family. Everyone knows it's low-key, high-quality, long-value transportation so you get a nod for being sensible, and that's about it.</p> <p>But this latest V6 Accord isn't the appliance you were expecting. It's the best mix of luxury, comfort, performance, fuel efficiency and unpretentious style that Honda has ever offered &mdash; other than the super-smooth, easygoing Gold Wing.</p> <p><strong>Endearing Anonymity</strong><br /> Rub your eyes until they're raw, spin around until you're totally dizzy and then smear some Vaseline on your corneas. Now go look at a 2012 Accord. That's what our 2013 Honda Accord EX-L V6 with Navigation looks like. It's handsome and well-proportioned, but in an anonymous and indistinct way, like any one of Mitt Romney's five sons. And it's only available in colors ranging from dignified and unmemorable to subdued and forgettable.</p> <p>Touch the new Accord, however, and the reassuring heft of the door handles alone announces that this midsize sedan is a step up in quality from the Altima, Camry, Optima and Sonata. Opening the door brings a whoosh like cracking open a new can of vacuum-packed coffee. Nearly every surface in the cabin seems like it came from either corn-fed cows or hand-rubbed petrochemicals, and this isn't even the most elite model: There's a new Touring trim level with LED headlights and adaptive cruise control.</p> <p>The major change in here, at least in EX-L Navi models like ours, is the pair of flat-panel screens stacked up in the center of the dash. The smaller of the two displays is a touchscreen for controlling the media options &mdash; Pandora, Bluetooth audio and SMS text messaging if your smartphone is MAP-enabled &mdash; and it's only found in EX-L and Touring models. It's a slick interface, but the sparkly trim surrounding it looks like it came from the lounge at the Stardust Hotel circa 1982.</p> <p>Meanwhile, the larger top screen displays the standard back-up camera, a passenger-side rearview camera and our EX-L model's navigation system, which has a fresh set of maps for 2013. The nav system still uses a chunky dial-type controller, but it's scaled back to a reasonable size in the 2013 Accord, and like every other control in this car, it's easy to use.</p> <p>That passenger-side camera is a sweet piece of work. Known as LaneWatch, the camera is mounted in the sideview mirror's housing and features a wide-angle lens that significantly extends the driver's field of vision. It can be set to switch on every time the right turn signal is activated or turned on using a button at the end of the turn signal stalk. It's not a very high-resolution camera &mdash; more cell phone than GoPro quality &mdash; but it adds confidence to every lane change. No doubt Ray LaHood has already added it to his wish list of future mandated safety technologies.</p> <p><strong>The Velvet Freight Train</strong><br /> Press the red start button and the 2013 Honda Accord's 3.5-liter V6 whirs to life almost silently. It now makes 278 horsepower, up from 271 hp in 2012. At idle you have to check the tachometer to make sure it's running at all.</p> <p>The shifter for the automatic transmission, which now has six forward gears instead of five, glides down into either "D" for regular driving or "S" for Sport, which keeps the car in the lower four gears longer and locks out 6th altogether.</p> <p>Regrettably, paddle shifters are available only in the Accord Coupe, which goes on sale one month after the sedan. Further, coupe buyers can get the V6 and a six-speed manual gearbox, while the sedan is automatic only. We don't mind, though, because this automatic rips off quick, clean upshifts.</p> <p>Honda has revised the V6 so that, the company claims, the torque production is better down low. That's despite the fact that peak torque is actually down 2 pound-feet from last year's 254 lb-ft at 5,000 rpm to 252 lb-ft at 4,900 rpm now. </p> <p>Toe into the accelerator, though, and the grunt is immediate and immersive. With the traction and stability control systems left on, the big sedan simply punches a hole in the atmosphere with no drama and practically no noise. Switch the nannies off and pedal it a bit, and it delivers you to 60 mph in 6.1 seconds (or 5.7 seconds <a href="/car-reviews/features/how-we-test-cars-and-trucks.html">with 1 foot of rollout</a> as on a drag strip). The quarter-mile goes by in a swift 14.3 seconds at 98.1 mph.</p> <p>Not only are these outstanding numbers for a family sedan, they represent a huge improvement over the <a href="/honda/accord/2008/">previous-generation Accord V6</a> sedan, which took 7.0 seconds to reach 60 and covered the quarter-mile in 15.3 seconds at 95.4 mph. They're also right in line with the V6-equipped <a href="/nissan/altima/2013/road-test.html" >2013 Nissan Altima</a>, which turned in a 6.2-second 0-60 time (5.8 with rollout) and a 14.3-second quarter-mile at 99.8 mph.</p> <p>Along with the new transmission, friction-reduction measures in the engine contribute to the 2013 Honda V6 Accord's lower fuel consumption. It's rated at 21 city/34 highway and 25 mpg combined versus last year's 20 city/30 highway/24 combined. Our test car averaged 28.7 mpg over 191 miles of mostly highway driving; the last time we <a href="/volkswagen/passat/2012/comparison-test.html">tested a V6 Accord</a>, we couldn't do better than 22 mpg. The V6 Altima is rated at 22/31/25, and our best tank during that test was 28.4 mpg.</p> <p><strong>Not So Sticky</strong><br /> The 2013 Honda Accord V6 is quick and its powertrain is perfectly behaved, but it's not a sport sedan. </p> <p>In daily use, the 3,531-pound Accord rides with superb comfort and has more than enough handling ability to see you through gnarly freeway interchanges and grocery store parking lots.</p> <p>But Honda specified its 215/55R17 Michelin Primacy MXV4 all-season tires with low rolling resistance and hushed performance as top priorities. On the skid pad the tires lose all decorum, and the Accord squeals to a modest 0.82g. Performance is also subdued through the slalom, where the Accord musters a 63.5-mph run. These Michelins do the big Honda no favors in the braking department, either. Our test car needed 128 feet to stop from 60 mph &mdash; not a great performance for this class.</p> <p>The steering is among the better electric-assist systems out there, with light effort levels and precise feedback. But this car wasn't built for chasing apexes, and the nose-heavy V6 sedan isn't as well balanced as the <a href="/honda/accord/2013/road-test.html">four-cylinder Accord</a>, which averaged 65.5 mph through the cones. The V6 Altima is the reigning family-car slalom champ, though, with a 66.6-mph run.</p> <p><strong>Four-Wheeled Gold Wing</strong><br /> Ultimately, what the 2013 Honda Accord EX-L V6 Navi does best of all is gobble up miles. For the first time, the EX-L V6 sedan isn't just the expensive Accord. It's now a transcontinental, luxury-class cruiser, an adult touring machine. It's a Honda Gold Wing with two extra wheels, automatic climate control and the best fairing ever devised. And at $32,860, this Accord costs only a couple thousand dollars more than the bike.</p> <p>Of course, this ninth-generation Honda Accord still looks like an Accord, so your neighbors won't be jealous. But they should be.</p> <p><em>The manufacturer provided Edmunds this vehicle for the purposes of evaluation.</em></p> ",
+          link: {
+            rel: "related",
+            href: "http://www.edmunds.com/honda/accord/2013/road-test1"
+          },
+          style: {
+            id: 200434858,
+            name: "EX-L w/Navigation 4dr Sedan (2.4L 4cyl CVT)",
+            submodel: {
+              body: "Sedan",
+              modelName: "Accord Sedan",
+              niceName: "sedan"
+            }
+          },
+          title: "2013 Honda Accord EX-L V6 Road Test",
+          authors: [
+            {
+              name: "John Pearley Huffman"
+            }
+          ],
+          comments: [
+            {
+              authors: [
+                {
+                  name: "wbringman",
+                  email: "wbringman@gv.net"
+                }
+              ],
+              body: "It's true, referring to the Edmunds write up. My wife &amp; I purchased a Accord V6 Touring 3 months ago and believe it is one of the finest vehicles we have ever owned (and we have had a few over the years). We have had luxury and econo boxes the 2013 Accord is an outstanding value. The fit, finish, and ease of use electronics are outstanding. My wife the techno-phobe feels completely at ease as she enters the vehicles impressive security curtain with her keyless wireless FOB and starts the machine into motion. All the electronic features are seamlessly transparent in their function and she doesn't have to &quot;deal with them&quot;. Honda has meticulously sourced their media partners (AHA, Pandora, Ipod, ect.) to integrate the features automatically as an audio experience unparalleled in vehicle sound systems. If you live in the PC world and wonder why it has to be so full of bugs, kiss it goodbye with the Honda-Link integration. The ride is european with mild sport and American comfort. Quietness is a premium for us folks with a distaste for road noise. A feeling of tranquility and safety envelops the occupants from entry to exit during transit. Yes I have been and remain a huge fan but got here from a thorough vetting of the competitive products available in the marketplace.",
+              publishDate: 1360456107399
+            },
+            {
+              authors: [
+                {
+                  name: "paltishko",
+                  email: "paltishko@gmail.com"
+                }
+              ],
+              body: "Nice article",
+              publishDate: 1363096238297
+            }
+          ],
+          specifications: [
+            {
+              group: "Fuel Consumption",
+              attributes: [
+                {
+                  name: "Edmunds observed (mpg)",
+                  value: "17.2"
+                },
+                {
+                  name: "Fuel tank capacity (U.S. gal.)",
+                  value: "584.8"
+                },
+                {
+                  name: "Edmunds estimated monthly fuel cost ($)",
+                  value: "AM/FM/CD stereo with 7 speakers, 360 watts"
+                },
+                {
+                  name: "EPA fuel economy (mpg)",
+                  value: "28.7 (over 191 miles, all highway)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      articlesCount: 2
     }

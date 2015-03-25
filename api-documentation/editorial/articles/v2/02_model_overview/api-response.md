@@ -41,7 +41,7 @@ number: 3
       },
       model: {
         name: {string},
-        niceName: {string}"
+        niceName: {string}
       },
       years: [
         {

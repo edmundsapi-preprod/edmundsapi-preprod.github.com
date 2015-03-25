@@ -65,7 +65,7 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
 				}
 
 				// Fire the API call
-				res.api('/editorial/v2/audi', options, success, fail);
+				res.api('/api/editorial/v2/audi', options, success, fail);
 
 			    // Additional initialization code such as adding Event Listeners goes here
 		  };
