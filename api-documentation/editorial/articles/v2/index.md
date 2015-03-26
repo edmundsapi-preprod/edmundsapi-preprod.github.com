@@ -29,25 +29,3 @@ Make sure to see the [*Special Requirements*](http://developer.edmunds.com/api-d
 * [Get model/year overview](/api-documentation/editorial/articles/v2/03_model_year_overview/api-description.html)
 * [Get road-tests articles](/api-documentation/editorial/articles/v2/04_road_tests_overview/api-description.html)
 
-### Available Article Categories
-
-* auto finance
-* awards
-* best cars lists
-* car news
-* car buying
-* car leasing
-* car technology
-* driving
-* editor reviews
-* extended warranties
-* fuel economy
-* how-to advice
-* insurance
-* maintenance & repair
-* road tests
-* selling
-* top 10 lists
-* vehicle safety
-* warranties
-
