@@ -61,7 +61,25 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                     },
                     "trim": "Limited"
                 },
-
+                "media": {
+                    "photos": {
+                        "thumbnails": {
+                            "count": 2,
+                            "links": [
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0209/c646513ccc02f8d1fb99db71bf9a363ex.jpg",
+                                    "size": "LARGE"
+                                },
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0209/c646513ccc02f8d1fb99db71bf9a363ex.jpg",
+                                    "size": "MEDIUM"
+                                }
+                            ]
+                        }
+                    }
+                },
                 "prices": {
                     "msrp": 25375,
                     "tmv": 23814,
@@ -113,6 +131,25 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                         "niceName": "sedan"
                     },
                     "trim": "Limited"
+                },
+                "media": {
+                    "photos": {
+                        "thumbnails": {
+                            "count": 2,
+                            "links": [
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0257/6fa45b963920bced0a1b3bce3c14c39cx.jpg",
+                                    "size": "LARGE"
+                                },
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0257/6fa45b963920bced0a1b3bce3c14c39cx.jpg",
+                                    "size": "MEDIUM"
+                                }
+                            ]
+                        }
+                    }
                 },
                 "prices": {
                     "msrp": 25740,
@@ -200,18 +237,39 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                 },
                 "media": {
                     "photos": {
-                        "link": {
-                            "rel": "_self",
-                            "href": "/api/media/v2/styles/200674795/photos"
-                        },
-                        "count": 32
+                        "thumbnails": {
+                            "count": 2,
+                            "links": [
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0209/c646513ccc02f8d1fb99db71bf9a363ex.jpg",
+                                    "size": "LARGE"
+                                },
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0209/c646513ccc02f8d1fb99db71bf9a363ex.jpg",
+                                    "size": "MEDIUM"
+                                }
+                            ]
+                        }
+                        "other": {
+                            "count": 32,
+                            "links": [
+                                {
+                                    "rel": "related",
+                                    "href": "/api/media/v2/styles/200674795/photos"
+                                }
+                            ]
+                        }
                     },
                     "videos": {
-                        "link": {
-                            "rel": "_self",
-                            "href": "/api/media/v2/styles/200674795/videos"
-                        },
-                        "count": 0
+                        "count": 0,
+                        "links": [
+                            {
+                                "rel": "related",
+                                "href": "/api/media/v2/styles/200674795/videos"
+                            }
+                        ]
                     }
                 },
                 "colors": [
@@ -378,18 +436,39 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                 },
                 "media": {
                     "photos": {
-                        "link": {
-                            "rel": "_self",
-                            "href": "/api/media/v2/styles/200674795/photos"
+                        "thumbnails": {
+                            "count": 2,
+                            "links": [
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0257/6fa45b963920bced0a1b3bce3c14c39cx.jpg",
+                                    "size": "LARGE"
+                                },
+                                {
+                                    "rel": "_self",
+                                    "href": "https://pictures.dealer.com/c/californiasuperstoresvalenciacllc/0257/6fa45b963920bced0a1b3bce3c14c39cx.jpg",
+                                    "size": "MEDIUM"
+                                }
+                            ]
                         },
-                        "count": 32
+                        "other": {
+                            "count": 32,
+                            "links": [
+                                {
+                                    "rel": "related",
+                                    "href": "/api/media/v2/styles/200674795/photos"
+                                }
+                            ]
+                        }
                     },
                     "videos": {
-                        "link": {
-                            "rel": "_self",
-                            "href": "/api/media/v2/styles/200674795/videos"
-                        },
-                        "count": 0
+                        "count": 0,
+                        "links": [
+                            {
+                                "rel": "related",
+                                "href": "/api/media/v2/styles/200674795/videos"
+                            }
+                        ]
                     }
                 },
                 "colors": [

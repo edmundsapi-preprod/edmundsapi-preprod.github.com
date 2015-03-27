@@ -53,6 +53,41 @@ number: 3
                     },
                     "trim": {string}
                 },
+                "media": {
+                    "photos": {
+                        "thumbnails": {
+                            "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string},
+                                    "size": {string}
+                                },
+                                ...
+                            ]
+                        },
+                        "small": {
+                            "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string}
+                                },
+                                ...
+                            ]
+                        },
+                        "large": {
+                             "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string}
+                                },
+                                ...
+                            ]
+                        }
+                    }
+                },
                 "prices": {
                     "msrp": {integer},
                     "tmv": {integer},
@@ -84,7 +119,7 @@ number: 3
             },
             ...
         ],
-        "inventoriesCount: {integer},
+        "inventoriesCount": {integer},
         "links": [
             {
                 "rel": {string},
@@ -158,18 +193,55 @@ number: 3
                 },
                 "media": {
                     "photos": {
-                        "link": {
-                            "rel": {string},
-                            "href": {string}
+                        "thumbnails": {
+                            "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string},
+                                    "size": {string}
+                                },
+                                ...
+                            ]
                         },
-                        "count": {integer}
+                        "small": {
+                            "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string}
+                                },
+                                ...
+                            ]
+                        },
+                        "large": {
+                             "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string}
+                                },
+                                ...
+                            ]
+                        },
+                        "other": {
+                            "count": {long},
+                            "links": [
+                                {
+                                    "rel": {string},
+                                    "href": {string}
+                                }
+                            ]
+                        }
                     },
                     "videos": {
-                        "link": {
-                            "rel": {string},
-                            "href": {string}
-                        },
-                        "count": {integer}
+                        "count": {long},
+                        "links": [
+                            {
+                                "rel": {string},
+                                "href": {string}
+                            }
+                        ]
                     }
                 },
                 "colors": [
@@ -273,7 +345,7 @@ number: 3
             },
             ...
         ],
-        "inventoriesCount: {integer},
+        "inventoriesCount": {integer},
         "links": [
             {
                 "rel": {string},
