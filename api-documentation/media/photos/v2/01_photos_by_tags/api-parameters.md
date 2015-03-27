@@ -9,7 +9,7 @@ title-endpoint: 'Find Photos by tags'
 spec: photos
 version: v2
 api: media
-dropdown-link: 'api/media/v2/photos?tag={tag}'
+dropdown-link: 'api/media/v2/photoset?tag={tag}'
 
 level: 4
 description_edpoint: 'Find Photos by tags'

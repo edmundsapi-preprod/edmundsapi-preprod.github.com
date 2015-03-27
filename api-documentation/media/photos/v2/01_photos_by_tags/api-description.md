@@ -9,7 +9,7 @@ title-endpoint: 'Find Photos by tags'
 spec: photos
 version: v2
 api: media
-dropdown-link: 'api/media/v2/photos?tag={tag}'
+dropdown-link: 'api/media/v2/photoset?tag={tag}'
 
 level: 3
 description_edpoint: 'Find Photos by tags'
@@ -25,7 +25,7 @@ Find Photos by tags
 
 ### URL
 
-    https://api.edmunds.com/api/media/v2/photos?tag={tag}&api_key={api_key}&fmt=json
+    https://api.edmunds.com/api/media/v2/photoset?tag={tag}&api_key={api_key}&fmt=json
 
 ### Code Example
 
@@ -61,7 +61,7 @@ You need the [Javascript SDK](https://github.com/EdmundsAPI/edmunds-javascript-s
                 }
 
                 // Fire the API call
-                res.api('/api/media/v2/photos?tag=acura', options, success, fail);
+                res.api('/api/media/v2/photoset?tag=acura', options, success, fail);
 
                 // Additional initialization code such as adding Event Listeners goes here
             };

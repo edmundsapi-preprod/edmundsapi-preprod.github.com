@@ -9,7 +9,7 @@ title-endpoint: 'Find Photos by tags'
 spec: photos
 version: v2
 api: media
-dropdown-link: 'api/media/v2/photos?tag={tag}'
+dropdown-link: 'api/media/v2/photoset?tag={tag}'
 
 level: 4
 description_edpoint: 'Find Photos by tags'
@@ -27,7 +27,7 @@ Find Photos by tag **mitsubishi**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2/photos?tag=mitsubishi&api_key={api_key}&fmt=json
+    https://api.edmunds.com/api/media/v2/photoset?tag=mitsubishi&api_key={api_key}&fmt=json
 
 #### Response
 
@@ -108,15 +108,15 @@ Find Photos by tag **mitsubishi**
         "links": [
             {
                 "rel": "first",
-                "href": "/api/media/v2/photos?tag=mitsubishi&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/media/v2/photoset?tag=mitsubishi&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "next",
-                "href": "/api/media/v2/photos?tag=mitsubishi&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
+                "href": "/api/media/v2/photoset?tag=mitsubishi&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/media/v2/photos?tag=mitsubishi&pagesize=10&pagenum=876&api_key={api_key}&fmt=json"
+                "href": "/api/media/v2/photoset?tag=mitsubishi&pagesize=10&pagenum=876&api_key={api_key}&fmt=json"
             }
         ]
     }
@@ -126,7 +126,7 @@ Find Photos by tag **mitsubishi**
 
 #### URL
 
-    https://api.edmunds.com/api/media/v2?tag=mitsubishi&view=full&api_key={api key}
+    https://api.edmunds.com/api/media/v2/photoset?tag=mitsubishi&view=full&api_key={api key}
 
 #### Response
 
@@ -225,15 +225,15 @@ Find Photos by tag **mitsubishi**
         "links": [
             {
                 "rel": "first",
-                "href": "/api/media/v2/photos?tag=mitsubishi&view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
+                "href": "/api/media/v2/photoset?tag=mitsubishi&view=full&pagesize=10&pagenum=1&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "next",
-                "href": "/api/media/v2/photos?tag=mitsubishi&view=full&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
+                "href": "/api/media/v2/photoset?tag=mitsubishi&view=full&pagesize=10&pagenum=2&api_key={api_key}&fmt=json"
             },
             {
                 "rel": "last",
-                "href": "/api/media/v2/photos?tag=mitsubishi&view=full&pagesize=10&pagenum=876&api_key={api_key}&fmt=json"
+                "href": "/api/media/v2/photoset?tag=mitsubishi&view=full&pagesize=10&pagenum=876&api_key={api_key}&fmt=json"
             }
         ]
     }

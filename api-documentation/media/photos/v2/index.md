@@ -29,7 +29,7 @@ overview: page_version
 
 #### Example 1: Get photos by tags
     
-> https://api.edmunds.com/api/media/v2/photos?tag=bmw&api_key={api_key}
+> https://api.edmunds.com/api/media/v2/photoset?tag=bmw&api_key={api_key}
 
 #### Example 2: Get photos by make/model/year
 
