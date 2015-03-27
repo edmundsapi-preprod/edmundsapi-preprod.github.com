@@ -62,6 +62,17 @@ number: 3
             "dealerId": {string},
             "name": {string},
             "franchiseId": {string},
+            "address": {
+                "street": {string},
+                "city": {string},
+                "stateCode": {string},
+                "stateName": {string},
+                "county": {string},
+                "country": {string},
+                "latitude": {double},
+                "longitude": {double},
+                "zipcode": {string}
+            },
             "contactInfo": {
                 "phone": {string},
                 "website": {string}
@@ -90,6 +101,7 @@ number: 3
 | dealerId                   | The dealer ID                                             | Edmunds, Partners         |
 | franchiseId                | The franchise ID                                          | Edmunds, Partners         |
 | contactInfo                | The franchise contact information                         | Edmunds, Partners         |
+| address                    | The franchise address                                     | Edmunds, Partners         |
 | premier                    | Is this dealership a premier dealer?                      | Edmunds                   |
 
 #### JSON Response w/ view=full
@@ -219,6 +231,17 @@ number: 3
             "dealerId": {string},
             "name": {string},
             "franchiseId": {string},
+            "address": {
+                "street": {string},
+                "city": {string},
+                "stateCode": {string},
+                "stateName": {string},
+                "county": {string},
+                "country": {string},
+                "latitude": {double},
+                "longitude": {double},
+                "zipcode": {string}
+            },
             "contactInfo": {
                 "phone": {string},
                 "website": {string}
@@ -264,6 +287,7 @@ number: 3
 | dealerId                   | The dealer ID                                                                                                   | Edmunds, Partners         |
 | franchiseId                | The franchise ID                                                                                                | Edmunds, Partners         |
 | contactInfo                | The franchise contact information                                                                               | Edmunds, Partners         |
+| address                    | The franchise address                                                                                           | Edmunds, Partners         |
 | premier                    | Is this dealership a premier dealer?                                                                            | Edmunds                   |
 
 **Note:** *Public* visibility is only available to public API keys that have been approved for access by Edmunds.com

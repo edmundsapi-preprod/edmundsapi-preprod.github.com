@@ -64,6 +64,17 @@ number: 3
                     "dealerId": {string},
                     "name": {string},
                     "franchiseId": {string},
+                    "address": {
+                        "street": {string},
+                        "city": {string},
+                        "stateCode": {string},
+                        "stateName": {string},
+                        "county": {string},
+                        "country": {string},
+                        "latitude": {double},
+                        "longitude": {double},
+                        "zipcode": {string}
+                    },
                     "contactInfo": {
                         "phone": {string},
                         "website": {string}
@@ -103,6 +114,7 @@ number: 3
 | dealerId                   | The dealer ID                                             | Edmunds, Partners         |
 | franchiseId                | The franchise ID                                          | Edmunds, Partners         |
 | contactInfo                | The franchise contact information                         | Edmunds, Partners         |
+| address                    | The franchise address                                     | Edmunds, Partners         |
 | premier                    | Is this dealership a premier dealer?                      | Edmunds                   |
 | inventoriesCount           | The inventories count                                     | Edmunds, Partners, Public |
 | links                      | The pagination links                                      | Edmunds, Partners, Public |
@@ -237,6 +249,17 @@ number: 3
                     "dealerId": {string},
                     "name": {string},
                     "franchiseId": {string},
+                    "address": {
+                        "street": {string},
+                        "city": {string},
+                        "stateCode": {string},
+                        "stateName": {string},
+                        "county": {string},
+                        "country": {string},
+                        "latitude": {double},
+                        "longitude": {double},
+                        "zipcode": {string}
+                    },
                     "contactInfo": {
                         "phone": {string},
                         "website": {string}
@@ -293,6 +316,7 @@ number: 3
 | dealerId                   | The dealer ID                                                                                                   | Edmunds, Partners         |
 | franchiseId                | The franchise ID                                                                                                | Edmunds, Partners         |
 | contactInfo                | The franchise contact information                                                                               | Edmunds, Partners         |
+| address                    | The franchise address                                                                                           | Edmunds, Partners         |
 | premier                    | Is this dealership a premier dealer?                                                                            | Edmunds                   |
 | inventoriesCount           | The inventories count                                                                                           | Edmunds, Partners, Public |
 | links                      | The pagination links                                                                                            | Edmunds, Partners, Public |

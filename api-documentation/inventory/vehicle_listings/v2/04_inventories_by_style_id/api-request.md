@@ -70,6 +70,17 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                 "dealer": {
                     "dealerId": "1046",
                     "name": "California Superstores Valencia",
+                    "address": {
+                        "street": "23820 Creekside Rd",
+                        "city": "Valencia",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Los Angeles",
+                        "country": "USA",
+                        "latitude": 34.418535,
+                        "longitude": -118.552833,
+                        "zipcode": "91355"
+                    },
                     "franchiseId": "649665",
                     "premier": false
                 }
@@ -111,6 +122,17 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                 "dealer": {
                     "dealerId": "1046",
                     "name": "California Superstores Valencia",
+                    "address": {
+                        "street": "23820 Creekside Rd",
+                        "city": "Valencia",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Los Angeles",
+                        "country": "USA",
+                        "latitude": 34.418535,
+                        "longitude": -118.552833,
+                        "zipcode": "91355"
+                    },
                     "franchiseId": "649665",
                     "premier": true
                 }
@@ -303,6 +325,17 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                     "dealerId": "1046",
                     "name": "California Superstores Valencia",
                     "franchiseId": "649665",
+                    "address": {
+                        "street": "23820 Creekside Rd",
+                        "city": "Valencia",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Los Angeles",
+                        "country": "USA",
+                        "latitude": 34.418535,
+                        "longitude": -118.552833,
+                        "zipcode": "91355"
+                    },
                     "premier": false,
                     "link": {
                         "rel": "_self",
@@ -470,6 +503,17 @@ Find inventories in the Santa Monica area (90404) with Style ID **200674795**.
                     "dealerId": "1046",
                     "name": "California Superstores Valencia",
                     "franchiseId": "649665",
+                    "address": {
+                        "street": "23820 Creekside Rd",
+                        "city": "Valencia",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Los Angeles",
+                        "country": "USA",
+                        "latitude": 34.418535,
+                        "longitude": -118.552833,
+                        "zipcode": "91355"
+                    },
                     "premier": true
                 }
             }

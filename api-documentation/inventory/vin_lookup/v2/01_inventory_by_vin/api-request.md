@@ -68,6 +68,17 @@ Look up inventory for VIN **4JGDF7DE1EA414724**.
             "dealerId": "837208",
             "name": "Mercedes-Benz of Rochester",
             "franchiseId": "837209",
+            "address": {
+                "street": "4447 Canal Pl SE",
+                "city": "Rochester",
+                "stateCode": "MN",
+                "stateName": "Minnesota",
+                "county": "Olmsted",
+                "country": "USA",
+                "latitude": 43.956911,
+                "longitude": -92.464561,
+                "zipcode": "55904"
+            },
             "contactInfo": {
                 "phone": "(888) 429-7040",
                 "website": http://www.mbofrochester.com/index.htm
@@ -283,6 +294,17 @@ Look up inventory for VIN **4JGDF7DE1EA414724**.
             "dealerId": "837208",
             "name": "Mercedes-Benz of Rochester",
             "franchiseId": "837209",
+            "address": {
+                "street": "4447 Canal Pl SE",
+                "city": "Rochester",
+                "stateCode": "MN",
+                "stateName": "Minnesota",
+                "county": "Olmsted",
+                "country": "USA",
+                "latitude": 43.956911,
+                "longitude": -92.464561,
+                "zipcode": "55904"
+            },
             "contactInfo": {
                 "phone": "(888) 429-7040",
                 "website": http://www.mbofrochester.com/index.htm

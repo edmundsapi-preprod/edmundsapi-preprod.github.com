@@ -61,7 +61,6 @@ Find inventories by Stock Number **350175**.
                     },
                     "trim": "Limited"
                 },
-
                 "prices": {
                     "msrp": 25375,
                     "tmv": 23814,
@@ -70,6 +69,17 @@ Find inventories by Stock Number **350175**.
                 "dealer": {
                     "dealerId": "1046",
                     "name": "California Superstores Valencia",
+                    "address": {
+                        "street": "23820 Creekside Rd",
+                        "city": "Valencia",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Los Angeles",
+                        "country": "USA",
+                        "latitude": 34.418535,
+                        "longitude": -118.552833,
+                        "zipcode": "91355"
+                    },
                     "franchiseId": "649665",
                     "premier": false
                 }
@@ -113,6 +123,17 @@ Find inventories by Stock Number **350175**.
                     "dealerId": "1484",
                     "name": "Honda World",
                     "franchiseId": "27711",
+                    "address": {
+                        "street": "13600 Beach Blvd",
+                        "city": "Westminster",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Orange",
+                        "country": "USA",
+                        "latitude": 33.764925,
+                        "longitude": 117.989609,
+                        "zipcode": "92683"
+                    },
                     "contactInfo": {
                         "phone": "(877) 999-3173",
                         "website": http://www.ochondaworld.com/
@@ -304,6 +325,17 @@ Find inventories by Stock Number **350175**.
                     "dealerId": "1046",
                     "name": "California Superstores Valencia",
                     "franchiseId": "649665",
+                    "address": {
+                        "street": "23820 Creekside Rd",
+                        "city": "Valencia",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Los Angeles",
+                        "country": "USA",
+                        "latitude": 34.418535,
+                        "longitude": -118.552833,
+                        "zipcode": "91355"
+                    },
                     "premier": false,
                     "link": {
                         "rel": "_self",
@@ -478,6 +510,17 @@ Find inventories by Stock Number **350175**.
                     "dealerId": "1484",
                     "name": "Honda World",
                     "franchiseId": "27711",
+                    "address": {
+                        "street": "13600 Beach Blvd",
+                        "city": "Westminster",
+                        "stateCode": "CA",
+                        "stateName": "California",
+                        "county": "Orange",
+                        "country": "USA",
+                        "latitude": 33.764925,
+                        "longitude": 117.989609,
+                        "zipcode": "92683"
+                    },
                     "contactInfo": {
                         "phone": "(877) 999-3173",
                         "website": http://www.ochondaworld.com/
