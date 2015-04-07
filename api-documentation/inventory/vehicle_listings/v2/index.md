@@ -54,3 +54,9 @@ overview: page_version
 * diesel
 * electric
 * natural-gas
+
+### Available transmission types
+* automatic
+* manual
+* automated-manual
+* direct-drive
