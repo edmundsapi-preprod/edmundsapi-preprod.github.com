@@ -48,3 +48,9 @@ overview: page_version
 * 10
 * 12
 * 16
+
+### Available fuel types
+* gasoline
+* diesel
+* electric
+* natural-gas
