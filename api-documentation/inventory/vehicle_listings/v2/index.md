@@ -60,3 +60,15 @@ overview: page_version
 * manual
 * automated-manual
 * direct-drive
+
+### Available body types
+* sedan
+* suv
+* pickup
+* hatchback
+* minivan
+* coupe
+* station-wagon
+* truck
+* convertible
+* van
