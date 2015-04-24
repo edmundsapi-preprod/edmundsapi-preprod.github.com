@@ -55,6 +55,13 @@ overview: page_version
 * electric
 * natural-gas
 
+### Available engine types
+* gas
+* flex-fuel
+* hybrid
+* diesel
+* natural-gas
+
 ### Available transmission types
 * automatic
 * manual
