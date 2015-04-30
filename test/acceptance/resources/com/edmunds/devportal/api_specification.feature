@@ -310,7 +310,7 @@ Feature: API Documentation
     And the 'v1' documentation shouldn't be present
     And the 'v2' documentation should be present
     And menu 'v2' should be active
-    And the documentation should have 2 endpoints
+    And the documentation should have 5 endpoints
     When I choose 'api/vehicle/v2/grade/{style ID}' endpoint
     Then the endpoint should have specification articles
     When I choose 'api/vehicle/v2/grade/{make}/{model}/{year}' endpoint
