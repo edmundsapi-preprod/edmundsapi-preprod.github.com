@@ -315,6 +315,12 @@ Feature: API Documentation
     Then the endpoint should have specification articles
     When I choose 'api/vehicle/v2/grade/{make}/{model}/{year}' endpoint
     Then the endpoint should have specification articles
+    When I choose 'api/vehicle/v2/{make}/{model}/{year}/grade' endpoint
+    Then the endpoint should have specification articles
+    When I choose 'api/vehicle/v2/{make}/{model}/{year}/grade/{reviewId}' endpoint
+    Then the endpoint should have specification articles
+    When I choose 'api/vehicle/v2/styles/{styleId}/grade' endpoint
+    Then the endpoint should have specification articles
 
     Then I choose 'Articles' left menu
     And menu 'Articles' should be active
