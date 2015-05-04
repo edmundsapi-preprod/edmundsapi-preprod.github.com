@@ -79,3 +79,18 @@ overview: page_version
 * truck
 * convertible
 * van
+
+### Available colors
+* black
+* blue
+* brown
+* cream
+* gold
+* gray
+* green
+* orange
+* purple
+* red
+* silver
+* white
+* yellow
