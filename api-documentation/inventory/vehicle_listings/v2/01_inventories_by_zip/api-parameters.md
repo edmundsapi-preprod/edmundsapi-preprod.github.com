@@ -44,5 +44,6 @@ number: 2
 | lpmax         | The upper limit of car's Lease Promise Program    |                                                                                            |                         | No                               |
 | pagenum       | The page number                                   |                                                                                            | 1                       | No                               |
 | pagesize      | The page size                                     | numeric value (the max is 50)                                                              | 10                      | No                               |
+| sortby        | The sorting strategy                              | distance                                                                                   | distance                | No                               |
 | view          | The response view                                 | basic, full, custom                                                                        | basic                   | No                               |
 | fmt           | Response format                                   | json                                                                                       | json                    | Yes                              |
