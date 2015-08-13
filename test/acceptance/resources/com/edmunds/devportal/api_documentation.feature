@@ -31,6 +31,7 @@ Feature: API Documentation
         | Service: Service Bulletin            |
         | Service: Notes                       |
         | Service: Local Labor Rate            |
+        | Service: Safety                      |
         | Content: Ratings and Reviews         |
         | Content: Letter Grade Rating         |
     And menu 'Editorial API' should have items:
