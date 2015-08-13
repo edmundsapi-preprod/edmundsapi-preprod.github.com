@@ -1,7 +1,7 @@
 ---
 layout: api-documentation
 title : 'Service: Safety'
-title_active_left_menu: "Service: Safety"
+title_active_left_menu: 'Service: Safety'
 title_parent: Api documentation
 
 amount_version: 1
