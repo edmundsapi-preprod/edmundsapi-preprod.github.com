@@ -44,9 +44,9 @@ Feature: API Documentation
         | Ratings and Reviews  |
         | Details and Location |
     And menu 'Media API' should have items:
-      | Media (Both photos and videos)  |
-      | Photos                          |
-      | Videos                          |
+      | Media (Both photos and videos) |
+      | Photos                         |
+      | Videos                         |
     And menu 'API Overview' should be active
     And the page content should be displayed
     Then the page content should have articles:
