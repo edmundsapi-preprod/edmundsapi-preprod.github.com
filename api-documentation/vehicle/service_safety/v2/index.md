@@ -16,7 +16,7 @@ overview: page_version
 
 ---
 <div class="info-message">
- Get the Safety tests result for a car by its Style ID or by the Maka/Model/Year.
+ Get the Safety tests result for a car by its Style ID or by the Make/Model/Year.
 </div>
 
 ### Endpoints

@@ -43,6 +43,10 @@ Feature: API Documentation
     And menu 'Dealer API' should have items:
         | Ratings and Reviews  |
         | Details and Location |
+    And menu 'Media API' should have items:
+      | Media (Both photos and videos)  |
+      | Photos                          |
+      | Videos                          |
     And menu 'API Overview' should be active
     And the page content should be displayed
     Then the page content should have articles:
@@ -106,7 +110,6 @@ Feature: API Documentation
     Then I should see the 'Pedal to The Metal!' article content
     Then I return back to the top after 'Pedal to The Metal!' article
     And the page content should be displayed
-
 
 
   Scenario: Check api overview documentation
