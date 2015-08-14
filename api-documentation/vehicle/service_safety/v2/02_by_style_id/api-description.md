@@ -1,11 +1,11 @@
 ---
 layout: api-documentation
-title : 'Get Safety tests result by Style ID'
+title : 'Get safety ratings by Style ID'
 title_active_left_menu: 'Service: Safety'
 title_parent: Api documentation
 
 amount_version: 1
-title-endpoint: 'Get Safety tests result by Style ID'
+title-endpoint: 'Get safety ratings by Style ID'
 spec: service_safety
 version: v2
 api: vehicle
@@ -13,7 +13,7 @@ dropdown-link: '/api/vehicle/v2/styles/{styleId}/safety'
 
 
 level: 3
-description_edpoint: 'Get Safety tests result by Style ID'
+description_edpoint: 'Get safety ratings by Style ID'
 title_md : Description
 number: 1
 
@@ -21,7 +21,7 @@ number: 1
 
 ### Description
 
-Get Safety tests result by Style ID
+Get Safety ratings by Style ID
 
 ### URL
 

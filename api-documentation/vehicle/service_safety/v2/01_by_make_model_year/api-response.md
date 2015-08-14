@@ -1,11 +1,11 @@
 ---
 layout: api-documentation
-title : 'Get Safety tests result by Make/Model/Year'
+title : 'Get safety ratings by Make/Model/Year'
 title_active_left_menu: 'Service: Safety'
 title_parent: Api documentation
 
 amount_version: 1
-title-endpoint: 'Get Safety tests result by Make/Model/Year'
+title-endpoint: 'Get safety ratings by Make/Model/Year'
 spec: service_safety
 version: v2
 api: vehicle
@@ -13,7 +13,7 @@ dropdown-link: '/api/vehicle/v2/{make}/{model}/{year}/safety'
 
 
 level: 4
-description_edpoint: 'Get Safety tests result by Make/Model/Year'
+description_edpoint: 'Get safety ratings by Make/Model/Year'
 title_md : Response format
 number: 3
 
