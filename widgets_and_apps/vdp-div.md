@@ -1,6 +1,6 @@
 ---
 layout: page
-title : 'The VDP Widget with IFrame'
+title : 'The VDP Widget with DIV'
 title_parent: Widgets and apps
 header : Vehicle configurator
 
