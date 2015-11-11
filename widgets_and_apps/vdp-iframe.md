@@ -19,7 +19,7 @@ class_page: pageWidgetSetup
         "options": {
             "apiKey": "5wxzdz9uk36tgteztydfc6e9",
             "vin": "2C3CCABG6FH814232",
-            "turnOnEmbedding": "true",
+            "turnOnEmbedding": "false",
             "isConfigurator": "false"
         },
         "components": [{"id":"section-2","section":"aft.creative.carRatingAndReviews"},{"id":"section-3","section":"aft.creative.trueCostToOwn"}]
