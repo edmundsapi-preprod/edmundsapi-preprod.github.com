@@ -374,10 +374,6 @@ namespace 'travis' do
 
       sh "jekyll serve --detach"
     end
-
-    sh "jekyll --version"
-    sh "kramdown --version"
-
   end
 
   desc 'Execute tests on Travis'
