@@ -353,27 +353,26 @@ namespace 'travis' do
     require 'uri'
     require 'json'
 
-    if ENV['TRAVIS_BRANCH'] == DEPLOY_BRANCH
-      ENV['REMOTE'] = 'true'
-    else
-      uri = URI.parse(VERSION_URL)
-      response = Net::HTTP.get_response(uri)
-      json = JSON.parse(response.body)
+    uri = URI.parse(VERSION_URL)
+    response = Net::HTTP.get_response(uri)
+    json = JSON.parse(response.body)
 
-      jekyllVersion = json["jekyll"]
-      kramdownVersion = json["kramdown"]
+    jekyllVersion = json["jekyll"]
+    kramdownVersion = json["kramdown"]
 
-      # uninstall all versions of Jekyll
-      sh "gem uninstall -ax jekyll"
+    # uninstall all versions of Jekyll
+    sh "gem uninstall -ax jekyll"
 
-      # uninstall all versions of Kramdown
-      sh "gem uninstall -ax kramdown"
+    # uninstall all versions of Kramdown
+    sh "gem uninstall -ax kramdown"
 
-      sh "gem install jekyll --version=3.0.2 --no-ri --no-rdoc"
-      sh "gem install kramdown --version '=" + kramdownVersion + "' --no-ri --no-rdoc"
+    sh "gem install jekyll --version=3.0.2 --no-ri --no-rdoc"
+    sh "gem install kramdown --version '=" + kramdownVersion + "' --no-ri --no-rdoc"
 
-      sh "jekyll serve --detach"
-    end
+    sh "jekyll --version"
+    sh "kramdown --version"
+
+    sh "jekyll serve --detach"
   end
 
   desc 'Execute tests on Travis'
