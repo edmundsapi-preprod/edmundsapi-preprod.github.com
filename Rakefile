@@ -347,9 +347,6 @@ namespace 'travis' do
   # install 'json' gem to parse version of Jekyll from Github Pages
   sh "gem install json --no-ri --no-rdoc"
 
-  sh "jekyll --version"
-  sh "kramdown --version"
-
   desc 'Setup site on Travis'
   task :setup do
     require 'net/http'
@@ -358,7 +355,7 @@ namespace 'travis' do
 
     if ENV['TRAVIS_BRANCH'] == DEPLOY_BRANCH
       ENV['REMOTE'] = 'true'
-    else
+
       uri = URI.parse(VERSION_URL)
       response = Net::HTTP.get_response(uri)
       json = JSON.parse(response.body)
@@ -375,7 +372,10 @@ namespace 'travis' do
       sh "gem install jekyll --version=3.0.2 --no-ri --no-rdoc"
       sh "gem install kramdown --version '=" + kramdownVersion + "' --no-ri --no-rdoc"
 
-      sh "jekyll serve --detach"
+      sh "jekyll -v"
+      sh "kramdown -v"
+
+      # sh "jekyll serve --detach"
     end
   end
 
