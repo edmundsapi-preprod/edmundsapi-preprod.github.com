@@ -14,5 +14,7 @@ Thumbs.db
 .rvmrc
 *.swp
 
+CNAME
+
 target
 .classpath
