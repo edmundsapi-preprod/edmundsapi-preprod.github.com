@@ -325,9 +325,9 @@ namespace 'test' do
   task :acceptance do
     if ENV['SITE_URL'] == nil
         if ENV['REMOTE'] == 'true'
-          # file = File.open("CNAME")
-          ENV['SITE_URL'] = "http://edmundsapi-preprod.github.com"
-          # file.close
+          file = File.open("CNAME")
+          ENV['SITE_URL'] = "http://" + file.read.gsub(/\s+/, "")
+          file.close
         else
           ENV['SITE_URL'] = 'http://localhost:4000'
         end
