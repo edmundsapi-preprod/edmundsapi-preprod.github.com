@@ -355,7 +355,7 @@ namespace 'travis' do
 
     if ENV['TRAVIS_BRANCH'] == DEPLOY_BRANCH
       ENV['REMOTE'] = 'true'
-
+    else
       uri = URI.parse(VERSION_URL)
       response = Net::HTTP.get_response(uri)
       json = JSON.parse(response.body)
@@ -375,7 +375,7 @@ namespace 'travis' do
       sh "jekyll -v"
       sh "kramdown -v"
 
-      # sh "jekyll serve --detach"
+      sh "jekyll serve --detach"
     end
   end
 
