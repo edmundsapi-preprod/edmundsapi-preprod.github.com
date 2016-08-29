@@ -346,8 +346,6 @@ namespace 'travis' do
 
   # install 'json' gem to parse version of Jekyll from Github Pages
   sh "gem install json --no-ri --no-rdoc"
-  sh "jekyll -v"
-  sh "kramdown -v"
 
   desc 'Setup site on Travis'
   task :setup do
