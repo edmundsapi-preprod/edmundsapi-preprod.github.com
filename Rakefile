@@ -368,7 +368,7 @@ namespace 'travis' do
       # uninstall all versions of Kramdown
       sh "gem uninstall -ax kramdown"
 
-      sh "gem install jekyll --version '=" + jekyllVersion + "' --no-ri --no-rdoc"
+      sh "gem install jekyll --version=3.0.5 --no-ri --no-rdoc"
       # sh "gem install kramdown --version '=" + kramdownVersion + "' --no-ri --no-rdoc"
 
       sh "jekyll -v"
