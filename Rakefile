@@ -345,7 +345,7 @@ namespace 'travis' do
   VERSION_URL = 'https://pages.github.com/versions.json'
 
   # install 'json' gem to parse version of Jekyll from Github Pages
-  sh "gem install json --no-ri --no-rdoc"
+  sh "gem install json --version=1.8.3 --no-ri --no-rdoc"
 
   desc 'Setup site on Travis'
   task :setup do
