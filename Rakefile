@@ -345,7 +345,7 @@ namespace 'travis' do
   VERSION_URL = 'https://pages.github.com/versions.json'
 
   # install 'json' gem to parse version of Jekyll from Github Pages
-  sh "gem install json --version=1.8.3 --no-ri --no-rdoc"
+  sh "gem install json --no-ri --no-rdoc"
 
   desc 'Setup site on Travis'
   task :setup do
@@ -368,8 +368,8 @@ namespace 'travis' do
       # uninstall all versions of Kramdown
       sh "gem uninstall -ax kramdown"
 
-      sh "gem install jekyll --version=1.5.1 --no-ri --no-rdoc"
-      # sh "gem install kramdown --version=1.2.0 --no-ri --no-rdoc"
+      sh "gem install jekyll --version '=" + jekyllVersion + "' --no-ri --no-rdoc"
+      # sh "gem install kramdown --version '=" + kramdownVersion + "' --no-ri --no-rdoc"
 
       sh "jekyll -v"
       sh "kramdown -v"
