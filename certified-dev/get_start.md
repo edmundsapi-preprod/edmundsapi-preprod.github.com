@@ -5,6 +5,7 @@ title_parent: Certified developers
 title_active_left_menu: 'How do I get started?'
 
 cdp_weight: 3
+class_page: pageCertDev
 ---
 <div class="getStartedBar">
 	<div class="top-bar-wrap">
