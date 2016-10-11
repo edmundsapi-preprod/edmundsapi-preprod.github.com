@@ -52,5 +52,5 @@ Feature: Certified-def/search_the_directory
     Then I click remove 'social' item filter
     And checkbox 'social' should be unchecked
 
-    Then I click 'LOCATION' link
+    Then I click 'Location' link
     And developers count in location should be correct
