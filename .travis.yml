@@ -24,7 +24,7 @@ script:
 
 notifications:
   email:
-#    - api@edmunds.com
-#    - akhisamutdinov@edmunds.com
-#    - arybik@edmunds.com
+    - akhisamutdinov@edmunds.com
+    - arybik@edmunds.com
     - ikrupenin@edmunds.com
+    - sskorynau@edmunds.com
