@@ -34,17 +34,17 @@ Feature: Certified-def/get_start
     And the page should have header links
     And the page should have header menu
     And the page should have link to 'get started'
-    And the page should have link to 'CERTIFIED DEVELOPER'
+    And the page should have link to 'Certified Developer'
     And the page should have a left menu
     And the page should have link to 'View Certified Developers Directory'
     And the page should have a navigated list
 
-    Then I click 'CERTIFIED DEVELOPER' link
+    Then I click 'Certified Developer' link
     And the right block should be visible
     And the page should have link to 'Check Out Our Codecademy Course'
-    And the page should have link to 'BUSINESS OWNER'
+    And the page should have link to 'Business Owner'
 
-    Then I click 'BUSINESS OWNER' link
+    Then I click 'Business Owner' link
     And the left block should be visible
 
   Scenario: Check link 'view certified directory'
