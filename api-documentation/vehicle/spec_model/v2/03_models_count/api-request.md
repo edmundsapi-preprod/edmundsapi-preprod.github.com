@@ -18,7 +18,7 @@ title_md : Sample Request
 number: 4
 ---
 
-###Sample Request 1
+### Sample Request 1
 
 Get the total number of ***new*** Toyota models.
 
@@ -32,7 +32,7 @@ Get the total number of ***new*** Toyota models.
 		"modelsCount": 23
 	}
 	
-###Sample Request 2
+### Sample Request 2
 
 Get the total number of ***new*** Toyota models ***and*** the breakdown of their model year counts.
 

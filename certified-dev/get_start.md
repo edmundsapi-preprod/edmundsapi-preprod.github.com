@@ -137,7 +137,7 @@ class_page: pageCertDev
 
 						<span class="stepNumber step4"><span>&nbsp;</span>Step.</span>
 
-						<h2>Business Owner works with Certified Developer </br> on a custom solution!</h2>
+						<h2>Business Owner works with Certified Developer <br/> on a custom solution!</h2>
 
 					</div>
 
@@ -161,7 +161,7 @@ class_page: pageCertDev
 
 						<h2>Developer builds an application with Edmunds API </h2>
 
-						<p><a href="http://edmunds.mashery.com/apps/mykeys" title="Register for a user account" target="_blank">Register and get an API key</a> on developer.edmunds.com </br> Build something awesome with Edmunds API!</p>
+						<p><a href="http://edmunds.mashery.com/apps/mykeys" title="Register for a user account" target="_blank">Register and get an API key</a> on developer.edmunds.com <br/> Build something awesome with Edmunds API!</p>
 						<p>If you have any questions during this phase, you can go to the <a href="http://edmunds.mashery.com/forum" title="Forum">forum</a>, browse our <a href="/api-documentation/overview/" title="API documentation">API documentation</a> or <a href="http://twitter.com/edmundsapi" title="Edmunds API Twitter" target="_blank">tweet us</a>.</p>
 
 					</div>
@@ -224,7 +224,7 @@ class_page: pageCertDev
 
 						<span class="stepNumber step4"><span>&nbsp;</span>Step.</span>
 
-						<h2>Certified Developer works with Business Owner to </br> build automative experiences with Edmund API</h2>
+						<h2>Certified Developer works with Business Owner to <br/> build automative experiences with Edmund API</h2>
 
 					</div>
 

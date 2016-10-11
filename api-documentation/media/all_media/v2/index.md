@@ -22,7 +22,7 @@ overview: page_version
 
 * [Get Media by tags](/api-documentation/media/all_media/v2/01_media_by_tags/api-description.html)
 
-###Examples
+### Examples
 
 #### Example 1: Get Media by tags
     
