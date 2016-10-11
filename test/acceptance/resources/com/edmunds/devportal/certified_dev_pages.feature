@@ -10,36 +10,36 @@ Feature: Certified-Dev pages
         | ECD Badges               |
         | Policies/Legal           |
         | Search the ECD directory |
-    Then the certified-dev page should have 'Why build?' in the page title
+    Then the certified-dev page should have 'WHY BUILD?' in the page title
     And I should see menu for certified-dev network
     And menu for certified-dev network should have items
     
     Then I choose 'How do I get started?' item from menu on certified-dev page
     And a new page should be open
-    Then the certified-dev page should have 'How do I get started?' in the page title
+    Then the certified-dev page should have 'HOW DO I GET STARTED?' in the page title
     And I should see menu for certified-dev network
     And menu for certified-dev network should have items
 
     Then I choose 'ECD Badges' item from menu on certified-dev page
     And a new page should be open
-    Then the certified-dev page should have 'ECD Badges' in the page title
+    Then the certified-dev page should have 'ECD BADGES' in the page title
     And I should see menu for certified-dev network
     And menu for certified-dev network should have items
 
     Then I choose 'Policies/Legal' item from menu on certified-dev page
     And a new page should be open
-    Then the certified-dev page should have 'Policies/Legal' in the page title
+    Then the certified-dev page should have 'POLICIES/LEGAL' in the page title
     And I should see menu for certified-dev network
     And menu for certified-dev network should have items
 
     Then I choose 'Why build?' item from menu on certified-dev page
-    Then the certified-dev page should have 'Why build?' in the page title
+    Then the certified-dev page should have 'WHY BUILD?' in the page title
     And I should see menu for certified-dev network
     And menu for certified-dev network should have items
 
     Then I choose 'Search the ECD directory' item from menu on certified-dev page
     And a new page should be open
-    Then the certified-dev page should have 'Search the ECD directory' in the page title
+    Then the certified-dev page should have 'SEARCH THE ECD DIRECTORY' in the page title
     And I should see menu for certified-dev network
     And menu for certified-dev network should have items
 
@@ -47,7 +47,7 @@ Feature: Certified-Dev pages
     Given I have opened '/certified-dev/why_build.html' page
     Then I click to the get started button as business owner
     And a new page should be open
-    And the certified-dev page should have 'How do I get started?' in the page title
+    And the certified-dev page should have 'HOW DO I GET STARTED?' in the page title
     And the business owner block should be active
     And the developer block should be inactive
 
@@ -55,7 +55,7 @@ Feature: Certified-Dev pages
     Given I have opened '/certified-dev/why_build.html' page
     Then I click to the get started button as developer
     And a new page should be open
-    And the certified-dev page should have 'How do I get started?' in the page title
+    And the certified-dev page should have 'HOW DO I GET STARTED?' in the page title
     And the business owner block should be inactive
     And the developer block should be active
 
