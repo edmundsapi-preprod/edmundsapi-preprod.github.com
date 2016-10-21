@@ -48,7 +48,7 @@ These datasets are distributed across _four distinct APIs_: **[Vehicle API](/api
 This overview covers the core concepts that you need to know before you could fully use the APIs to their potential. Once you have a good understanding of the API core concepts, you can then dig deeper into each API by visiting its dedicated overview page.<a name='sec-2'> </a>
 
 [Back to top](#top)
-
+ 
 ### Data Hierarchy
 
 Exploring a new API can be daunting. To make using our API enjoyable, easy, and fun, it's important to understand a few things regarding how our data is structured and how our APIs work.
