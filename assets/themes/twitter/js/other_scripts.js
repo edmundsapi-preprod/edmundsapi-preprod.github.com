@@ -37,9 +37,8 @@ if ($('.carousel-indicators').length > 0) {
 }
 // WIDGETS AND APPS - END
 
-// CERTIFIED DEVELOPER NETWORK JS - START
 if ($('.carousel').length > 0) {
-	
+
     $('.carousel').carousel({
 	    pause: true,
 		interval: false
@@ -59,7 +58,7 @@ if ($('#myTab').length > 0) {
     $('#myTab a').click(function (e) {
 	    e.preventDefault();
 	    $(this).tab('show');
-		
+
 	    //moving arrow
 		if ($('.arrow').length > 0) {
 	    	var hrefLink = $(this).attr('href');
@@ -70,67 +69,6 @@ if ($('#myTab').length > 0) {
 		}
 	});
 }
-
-// FOR POLICIES
-$(function(){
-	if ($('#compliance_policies').length > 0) {
-		$("ol a").on('click', function (element) { 
-			var thisLink = $(this);
-			scrollTo(thisLink);
-		});
-	}
-});
-
-$(function(){
-	if ($('.discriptBlokBisOwner').length > 0) {
-    	var discriptBlokBisOwner = $('.discriptBlokBisOwner');
-	    var discriptBlokDev = $('.discriptBlokDev');
-	    var blokHover = $('.blokHover');
-	    var section2 = $('.section2');
-	    var isOver = false;
-    
-	    function onMouseOver(){
-	    	isOver = true;
-	    	var thisClass = $(this).hasClass('leftBlock1');
-	    	if (thisClass){
-	    		section2.addClass('busOwnerActive');
-	    	} else {
-	    		section2.addClass('developerActive');
-	    	}
-	    };
-    
-	    function onMouseLeave(){
-	    	isOver = false;
-			$('.discriptBlokBisOwner, .discriptBlokDev').on('mouseover', function(){
-	    		 isOver = true;
-	    	});
-    
-	    	setTimeout(function(){
-				if(isOver == false){
-					section2.removeClass('busOwnerActive developerActive');
-				}
-	    	}, 100);
-	    };
-    
-	    blokHover.on('mouseover', onMouseOver).on('mouseleave', onMouseLeave);
-	    $('.discriptBlokBisOwner, .discriptBlokDev').on('mouseleave', function(){
-	    	section2.removeClass('developerActive busOwnerActive');
-	    });
-	}
-});
-
-$(function(){
-	if ($('#iconBadge').length > 0) {
-		var $iconBadge = $('#iconBadge').find('li a');
-		var amountBadge = $iconBadge.length;
-		var wrappIconDev = $('.wrapperIconDeveloper');
-		wrappIconDev.addClass('iconBadges'+ amountBadge +'');
-		
-		$('#iconBadge a').tooltip('toggle');
-		$('#iconBadge a').tooltip('hide');
-	}
-});
-// CERTIFIED DEVELOPER NETWORK JS - END
 
 // WIDGETS - START
 

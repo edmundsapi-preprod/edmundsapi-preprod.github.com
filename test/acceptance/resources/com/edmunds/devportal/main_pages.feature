@@ -12,12 +12,10 @@ Feature: Main pages
         | AFFILIATE NETWORK |
         | TERMS OF SERVICE  |
         | FAQ               |
-        | BLOG              |
     Given there is a list of menu:
         | api documentation    |
         | widgets and apps     |
         | showcase             |
-        | certified developers |
     Then the page should have 'Edmunds Developer Network - Welcome to the Edmunds API' in the title
     And the page should have header links
     And the page should have header menu
@@ -40,14 +38,3 @@ Feature: Main pages
     And the page should have header menu
     And the page should have link to 'get started'
     And menu 'showcase' should be active
-    Then I choose 'certified developers' menu
-    Then the page should have 'Edmunds Certified Developer Network - Overview' in the title
-    And the page should have header links
-    And the page should have header menu
-    And the page should have link to 'get started'
-    And menu 'certified developers' should be active
-
-  Scenario: Check blog page
-    Given I have opened '/' page
-    Then I click 'BLOG' link
-    Then the page should have 'The Edmunds API Blog' in the title

@@ -11,12 +11,10 @@ Feature: Affiliate Network
       | AFFILIATE NETWORK |
       | TERMS OF SERVICE  |
       | FAQ               |
-      | BLOG              |
     Given there is a list of menu:
       | api documentation    |
       | widgets and apps     |
       | showcase             |
-      | certified developers |
     Given there is a navigated list
       | TERMS OF USE       |
       | API CONSOLE        |
