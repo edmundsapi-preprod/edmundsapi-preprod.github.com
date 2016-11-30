@@ -597,7 +597,7 @@ a.pdfLink:hover {
 	}
 	.mediaTableTr .odd .span4,
     .mediaTableTr .even .span4 {
-    	line-height: 45px;
+    	line-height: 150px;
     }
 	.subcategory .rowCostCategory .span8 .span4 {
 		line-height: 53px;
