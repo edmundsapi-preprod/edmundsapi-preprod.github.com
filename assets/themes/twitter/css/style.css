@@ -615,6 +615,9 @@ a.pdfLink:hover {
 		text-align: center;
 		padding-top: 15px;
 	}
+	.overviewTableTH .overviewTableTHcols .overviewTableTHcolsSub {
+		font-size: 11px;
+	}
 	/*__End table "AVAILABLE API’S"__*/
 /*__End Content__*/
 
