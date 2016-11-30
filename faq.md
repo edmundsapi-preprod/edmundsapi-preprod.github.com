@@ -77,6 +77,7 @@ Absolutely. We have large companies like Uber and Toyota Motors using our data a
 <span class="question-header">What data formats does the Edmunds API support?
 </span>
 The vast majority of our data is returned in **JSON**. The Editorial API resource support JSON as well as XML. We are trying to add XML support to the other APIs in the future.
+
 [Back to top](#top)
 
 <a name='faq-8' id='faq-8'> </a>
