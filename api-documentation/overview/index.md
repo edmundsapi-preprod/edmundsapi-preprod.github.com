@@ -188,12 +188,12 @@ Once these three criteria are verified, the rate limit is increased to what Edmu
 ### Available Resources
 {% include themes/twitter/api_overview/table_available_api.html %}
 
-Although access to these APIs is _free_, their _availability to developers_ varies based on the **access tier** to which the developer belongs. We currently offer _three access tiers_:
+Although access to these APIs is _free_, their availability to developers_ varies based on the **access tier** to which the developer belongs. We currently offer  _four access tiers_:
 
 * **EXPLORATORY**: All developers and companies start exploring here.
-* **ENHANCED**: Increased rate limit to start building your application..
-* **PROFESSIONAL**: Increased rate limits to help your application grow..
-* **PARTNERS**: Developers working with Edmunds.com on strategic products and applications that include the Edmunds.com data and content. If you’d like to become an Edmunds API Partner, please contact us.
+* **ENHANCED**: Increased rate limit to start building your application.
+* **PROFESSIONAL**: Increased rate limits to help your application grow.
+* **PARTNERS**: Developers working with Edmunds.com on strategic products and applications that include the Edmunds.com data and content. If you’d like to become an Edmunds API Partner, please <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us </a>.
 
 Regardless of access tier, all developers using the Edmunds API need to **read** and **agree** to our [Terms of Service](/terms_of_service/).<a name='sec-8'> </a>
 
