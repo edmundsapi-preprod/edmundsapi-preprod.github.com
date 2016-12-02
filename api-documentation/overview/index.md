@@ -188,7 +188,7 @@ Once these three criteria are verified, the rate limit is increased to what Edmu
 ### Available Resources
 {% include themes/twitter/api_overview/table_available_api.html %}
 
-Although access to these APIs is _free_, their availability to developers_ varies based on the **access tier** to which the developer belongs. We currently offer  _four access tiers_:
+Although access to these APIs is _free_, their _availability to developers_ varies based on the **access tier** to which the developer belongs. We currently offer  _four access tiers_:
 
 * **EXPLORATORY**: All developers and companies start exploring here.
 * **ENHANCED**: Increased rate limit to start building your application.
