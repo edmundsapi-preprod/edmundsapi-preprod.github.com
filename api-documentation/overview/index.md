@@ -272,7 +272,7 @@ Our [Javascript](https://github.com/EdmundsAPI/sdk-javascript) and [Python](http
 
 If you’ve made it this far, **congratulations**! You’re way on your way to rocking the API!
 
-This is also a good time to make sure you're all set with an _account_ and a _key_ for the API(s) you want use. If you still haven't gotten your API key,<a class="linkGetKey" href="http://edmunds.mashery.com/member/my-account" title="get a key" target="_blank">get a key</a> now so you can start building in no time!
+This is also a good time to make sure you're all set with an _account_ and a _key_ for the API(s) you want use. If you still haven't gotten your API key, <a class="linkGetKey" href="http://edmunds.mashery.com/member/my-account" title="get a key" target="_blank">get a key</a> now so you can start building in no time!
 
 All set? Awesome. Why not start making **live API calls** _right now_ by using the [API Console](http://edmunds.mashery.com/io-docs). You won't need to write a single line of code to do so! Seriously. It's an interactive tool built by our friends at [Mashery](http://www.mashery.com) to help you get a sense of our data before investing time and effort coding against it.
 
