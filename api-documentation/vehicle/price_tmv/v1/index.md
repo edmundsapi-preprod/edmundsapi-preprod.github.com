@@ -37,14 +37,14 @@ TMV® is essential information for shoppers because cars sell at very different 
 
 When you display our True Market Value® (TMV®) prices for any new or used vehicles, we ask for the following:
 
-1) When a price is displayed, it is captioned or titled one of the following: 
+1) When a price is displayed, it is captioned or titled one of the following:
 
 * Edmunds.com True Market Value®
 * Edmunds.com TMV®
 
-2) When a price is displayed, the date it was generated though the API should also be displayed, since TMV® prices are “perishable.”
+2) When a price is displayed, the date it was generated through the API should also be displayed, since TMV® prices are “perishable.”
 
-3) That you include the following explanations of what that number is:
+3) Unless you are displaying the TMV price for a specific VIN:  That you include the following explanations of what that number is:
 
 * For the presentation of TMV® for new vehicles:
 
@@ -52,7 +52,7 @@ When you display our True Market Value® (TMV®) prices for any new or used vehi
 
 * For the presentation of TMV for used vehicles (using the appropriate bracketed words):
 
-	*The Edmunds.com TMV® (Edmunds.com True Market Value®) price is Edmunds.com’s determination of the current average base \[“dealer retail”\] \[“private party”\] \[“dealer trade-in”\] price in the area indicated by the Zip Code provided, unadjusted for color or any options.  (If no Zip Code was provided, this price is the national price.)*
+	*The Edmunds.com TMV® (Edmunds.com True Market Value®) price is Edmunds.com’s determination of the current average base [“dealer retail”] [“private party”] [“dealer trade-in”] price in the area indicated by the Zip Code provided, unadjusted for color or any options. (If no Zip Code was provided, this price is the national price.)*
 
 4) That you include the following legal notice:
 
