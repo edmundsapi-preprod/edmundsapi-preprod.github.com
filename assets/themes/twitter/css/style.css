@@ -584,19 +584,27 @@ a.pdfLink:hover {
 		min-height: 26px;
 	}
 	.editorialTableTr .odd .span4,
-	.editorialTableTr .even .span4 {
+	.editorialTableTr .even .span4,
+    .editorialTableTr .odd .span3,
+	.editorialTableTr .even .span3 {
 		line-height: 83px;
 	}
 	.inventoryTableTr .odd .span4,
-	.inventoryTableTr .even .span4 {
+	.inventoryTableTr .even .span4,
+	.inventoryTableTr .odd .span3,
+	.inventoryTableTr .even .span3 {
 		line-height: 69px;
 	}
 	.dealerTableTr .odd .span4,
-	.dealerTableTr .even .span4 {
+	.dealerTableTr .even .span4,
+	.dealerTableTr .odd .span3,
+	.dealerTableTr .even .span3 {
 		line-height: 69px;
 	}
 	.mediaTableTr .odd .span4,
-    .mediaTableTr .even .span4 {
+    .mediaTableTr .even .span4,
+	.mediaTableTr .odd .span3,
+    .mediaTableTr .even .span3{
     	line-height: 150px;
     }
 	.subcategory .rowCostCategory .span8 .span4 {
