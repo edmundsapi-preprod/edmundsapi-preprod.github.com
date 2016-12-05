@@ -15,12 +15,12 @@ weight: 1
 ### Page Content
 
 * [Introduction](#sec-1)
+* [Rate Limit](#sec-6)
+* [Available Resources](#sec-7)
 * [Data Hierarchy](#sec-2)
 * [Data Constraints](#sec-3)
 * [URI Format](#sec-4)
 * [URI Examples](#sec-5)
-* [Rate Limit](#sec-6)
-* [Available Resources](#sec-7)
 * [Error Codes and Handling](#sec-8)
 * [Useful API Calls](#sec-9)
 * [SDKs and Code Samples](#sec-10)
