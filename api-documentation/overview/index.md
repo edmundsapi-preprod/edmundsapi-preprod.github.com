@@ -51,13 +51,41 @@ This overview covers the core concepts that you need to know before you could fu
 
 ### Rate Limit
 
-All API keys are issued with a _default quota_ of **2 API calls/second** and **5000 API calls/day**. We do increase rate limits on case-by-case basis. In order to increase the rate limit for a particular application, we need to verify the following:
+#### CORS Support
 
-1. The application is in compliance with our [Terms of Service](/terms_of_service/)
-2. The application is in compliance with our [branding guide](/api_branding_guide/)
-3. The application is representing the Edmunds data properly
+Access to our Open API is granted across three tiers, Exploratory, Enhanced, and Professional.
 
-Once these three criteria are verified, the rate limit is increased to what Edmunds and the developer determine to be appropriate. Please note that you **do *not* have to be an API Partner** to get your rate limit increased. Every developer can get their rate limit increased if their application meets the three conditions mentioned above. **If you would like to increase your API rate limit, please** <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us</a>. _No monetary compensation is expected in exchange for the rate limit increase_.<a name='sec-3'> </a>
+Exploratory (25 CPD) is for you to test and Explore the Edmunds API.
+
+Enhanced (100 CPD) helps us to get to know who you are and what you are building with the Edmunds API.
+
+Professional (100k CPD) is for users that have demonstrated they are good stewards of the Edmunds API, and would like to scale their use of Edmunds’ Data.
+
+#### Exploratory
+
+_25 cpd | 5 cps - Open Access_
+
+All Edmunds API keys are issued with a default quota of 25 calls/day and 5 calls/second. This rate limit should provide sufficient access to test and explore the Edmunds API. Don’t forget to check out the [API Console](http://edmunds.mashery.com/io-docs) for testing and education.
+
+#### Enhanced
+
+_100 cpd | 10 cps - Developers Must Request Access_
+
+If you would like to apply for enhanced access of our API, please <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us</a> and be sure to select “Request Enhanced Access” In order to be granted Enhanced access and receive an increased rate limit, we need to verify the following:
+
+* Use of Edmunds API is in compliance with our [Terms of Service](/terms_of_service/) and our [Branding Guide](/api_branding_guide/)
+
+Applications are reviewed every 2 weeks. When your application is approved, your rate limit will be increased to 100 calls/day. 
+
+
+#### Professional
+_100,000 cpd | 25 cps - Developers Must Request Access_
+
+Our professional access is reserved for partners that are approved by our Open API review board. If you would like to apply for Professional access of our API, please <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us</a> and be sure to select “Request Professional Access” in order to receive access with an increased rate limit of 100,000 calls/day we will need to verify the following:
+
+* Use of Edmunds API is in compliance with our [Terms of Service](/terms_of_service/) and our [Branding Guide](/api_branding_guide/)
+
+Applications are reviewed every 90 days. When your application is approved, your rate limit will be increased to 100,000 calls/day. 
 
 [Back to top](#top)
 
