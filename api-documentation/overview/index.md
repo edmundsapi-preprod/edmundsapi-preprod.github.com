@@ -51,8 +51,6 @@ This overview covers the core concepts that you need to know before you could fu
 
 ### Rate Limit
 
-#### CORS Support
-
 Access to our Open API is granted across three tiers, Exploratory, Enhanced, and Professional.
 
 Exploratory (25 CPD) is for you to test and Explore the Edmunds API.
