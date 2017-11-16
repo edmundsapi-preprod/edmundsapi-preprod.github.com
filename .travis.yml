@@ -24,7 +24,4 @@ script:
 
 notifications:
   email:
-    - akhisamutdinov@edmunds.com
-    - arybik@edmunds.com
-    - ikrupenin@edmunds.com
     - sskorynau@edmunds.com
