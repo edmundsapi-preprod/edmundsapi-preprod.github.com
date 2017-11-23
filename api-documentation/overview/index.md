@@ -15,7 +15,6 @@ weight: 1
 ### Page Content
 
 * [Introduction](#sec-1)
-* [Rate Limit](#sec-2)
 * [Available Resources](#sec-3)
 * [Data Hierarchy](#sec-4)
 * [Data Constraints](#sec-5)
@@ -32,7 +31,7 @@ weight: 1
 
 ### Introduction
 
-**Welcome!** To get you started, let's go over the automotive datasets we've made available for you through the Edmunds API. Once you [register for a key](http://edmunds.mashery.com/member/register), you will be able to access the following datasets:
+**Welcome!** To get you started, let's go over the automotive datasets we've made available for you through the Edmunds API.
 
 | Dataset           | Description                                                                                               |
 |:------------------|:----------------------------------------------------------------------------------------------------------|
@@ -45,57 +44,16 @@ weight: 1
 
 These datasets are distributed across _four distinct APIs_: **[Vehicle API](/api-documentation/vehicle/)**, **[Editorial API](/api-documentation/editorial/)**, **[Dealer API](/api-documentation/dealer/)** and **[Inventory API](/api-documentation/inventory/)**. A list of resources available under each API is on the left.
 
-This overview covers the core concepts that you need to know before you could fully use the APIs to their potential. Once you have a good understanding of the API core concepts, you can then dig deeper into each API by visiting its dedicated overview page.<a name='sec-2'> </a>
+This overview covers the core concepts that you need to know before you could fully use the APIs to their potential. Once you have a good understanding of the API core concepts, you can then dig deeper into each API by visiting its dedicated overview page.
 
-[Back to top](#top)
-
-### Rate Limit
-
-Access to our Open API is granted across three tiers, Exploratory, Enhanced, and Professional.
-
-Exploratory (25 CPD) is for you to test and Explore the Edmunds API.
-
-Enhanced (100 CPD) helps us to get to know who you are and what you are building with the Edmunds API.
-
-Professional (100k CPD) is for users that have demonstrated they are good stewards of the Edmunds API, and would like to scale their use of Edmunds’ Data.
-
-#### Exploratory
-_25 cpd | 5 cps - Open Access_
-
-All Edmunds API keys are issued with a default quota of 25 calls/day and 5 calls/second. This rate limit should provide sufficient access to test and explore the Edmunds API. Don’t forget to check out the [API Console](http://edmunds.mashery.com/io-docs) for testing and education.
-
-#### Enhanced
-_100 cpd | 10 cps - Developers Must Request Access_
-
-If you would like to apply for enhanced access of our API, please <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us</a> and be sure to select “Request Enhanced Access” In order to be granted Enhanced access and receive an increased rate limit, we need to verify the following:
-
-* Use of Edmunds API is in compliance with our [Terms of Service](/terms_of_service/) and our [Branding Guide](/api_branding_guide/)
-
-Applications are reviewed every 2 weeks. When your application is approved, your rate limit will be increased to 100 calls/day. 
-
-
-#### Professional
-_100,000 cpd | 25 cps - Developers Must Request Access_
-
-Our professional access is reserved for partners that are approved by our Open API review board. If you would like to apply for Professional access of our API, please <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us</a> and be sure to select “Request Professional Access” in order to receive access with an increased rate limit of 100,000 calls/day we will need to verify the following:
-
-* Use of Edmunds API is in compliance with our [Terms of Service](/terms_of_service/) and our [Branding Guide](/api_branding_guide/)
-
-Applications are reviewed every 90 days. When your application is approved, your rate limit will be increased to 100,000 calls/day.<a name='sec-3'> </a> 
-
-[Back to top](#top)
+Use of Edmunds API is in compliance with our [Terms of Service](/terms_of_service/) and our [Branding Guide](/api_branding_guide/)
 
 ### Available Resources
 {% include themes/twitter/api_overview/table_available_api.html %}
 
-Although access to these APIs is _free_, their _availability to developers_ varies based on the **access tier** to which the developer belongs. We currently offer  _four access tiers_:
+Access is available to developers working with Edmunds.com on strategic products and applications that include Edmunds data and content.
 
-* **EXPLORATORY**: All developers and companies start exploring here.
-* **ENHANCED**: Increased rate limit to start building your application.
-* **PROFESSIONAL**: Increased rate limits to help your application grow.
-* **PARTNERS**: Developers working with Edmunds.com on strategic products and applications that include the Edmunds.com data and content. If you’d like to become an Edmunds API Partner, please <a href="https://tier3.wufoo.com/forms/q8wdmmf0iah3h4/" onclick="window.open(this.href,  null, 'height=1155, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">contact us </a>.
-
-Regardless of access tier, all developers using the Edmunds API need to **read** and **agree** to our [Terms of Service](/terms_of_service/).<a name='sec-4'> </a>
+All developers using the Edmunds API need to **read** and **agree** to our [Terms of Service](/terms_of_service/).<a name='sec-4'> </a>
 
 [Back to top](#top)
  

@@ -2,18 +2,12 @@
 
 .topLogo {
   display: block;
-  height: 103px;
-  width: 93px;
-  background-image: url('../img/api-logo.png');
+  height: 28px;
+  width: 181px;
+  background-image: url('../img/api-logo-new.svg');
   background-repeat: no-repeat;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 1.5dppx),
-       only screen and (-o-min-device-pixel-ratio: 3/2) {
-  .topLogo {
-    background-image: url('../img/api-logo@2x.png');
-    background-size: 93px 103px;
-  }
+  position: relative;
+  top: 10px;
 }
 a.topLogo:hover {
 	text-decoration: none;
@@ -87,7 +81,7 @@ body, html {
 }
 
 .pushTop {
-  height: 117px;
+  height: 160px;
 }
 .pushBottom {
   height: 128px;
@@ -168,7 +162,7 @@ body, html {
 /*__Start Header__*/
 header {
   position:relative;
-  padding: 14px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .topBlogBackground {
@@ -286,10 +280,6 @@ a.linkGetStart {
 .footerLayout {
 	position: relative;
 	z-index: 101;
-}
-footer.navbar {
-  height: 128px;
-  background: #dedede url(../img/bg_footer.gif) top repeat-x;
 }
 
 footer.navbar .container {
