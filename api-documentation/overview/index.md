@@ -154,7 +154,7 @@ All API calls follow this format: _**{protocol}**://api.edmunds.com/**{endpoint}
 		<td>Authorized API Key</td>
 		<td><strong>Yes</strong></td>
 		<td>
-			<a class="standart-btn" href="http://edmunds.mashery.com/member/my-account" title="Get your API key">Get your API key</a> 
+			Please use the API key provided to you by Edmunds
 		</td>
 	</tr>
 
